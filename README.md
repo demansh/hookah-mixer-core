@@ -105,18 +105,51 @@ const result = await recommend({ query, seed }, catalog, page = 0);
 }
 ```
 
+### Подбор миксов по выбору (без текста)
+
+Для интерфейсов на тапах: клиент передаёт не строку, а структуру из id каталога.
+
+```js
+const result = await recommendSelection({
+  concepts: { 'tropical-fruits': 1 },   // образы → сила (умножает веса ароматов и свойств образа)
+  flavors: { mango: 1.5 },              // желательные ароматы → вес (не обязательны в каждом миксе)
+  properties: { sweet: 1.5 },           // свойства вкуса → сила сдвига
+  required: ['passion_fruit'],          // будут в каждом миксе, не больше MAX_REQUIRED_FLAVORS (3)
+  excluded: ['coconut'],                // не появятся ни в одном миксе
+  seed,
+}, catalog, page = 0);
+// result = { profile, mixes } — как у recommend
+```
+
+- Все поля, кроме `seed`, необязательны. Веса — числа в `(0, MAX_SELECTION_WEIGHT]` (`3`). Текстовый запрос даёт
+  вес `1` (частичное совпадение с образом — `0.5`); `1.5–2` — заметный сдвиг, `3` — сдвиг перекрывает образ.
+- Id: образы — `catalog.concepts[].id` (у понятных гостю `chip: true`), ароматы — `catalog.flavors` с
+  `kind: 'flavor'`, свойства — с `kind: 'property'` (`sweet`, `sour`, `fresh`, `creamy`, `spicy`, `bitter`).
+  Холодок — обычный аромат `cooling`: «холоднее» = `required: ['cooling']` или `flavors: { cooling: … }`.
+- Выбор проверяется строго: неизвестное поле или id, вес вне диапазона, больше трёх обязательных, один аромат
+  и в `required`, и в `excluded` → исключение `SelectionError` со списком `issues`. Проверить заранее —
+  `normalizeSelection(selection, catalog)`: вернёт канонический вид (все поля, ключи по алфавиту) или бросит ошибку.
+- Пустой выбор (или только `excluded`) → случайные миксы, как пустой запрос (`profile.isRandom === true`).
+- Страницы и зерно работают как у `recommend`; одинаковые выбор + `seed` + `page` → одинаковый результат.
+
 ### Разбор запроса
 
 ```js
 const profile = parseQuery('манго с мятой, без кокоса', catalog);
 profile.required;        // ['mango', 'mint'] — названы прямо, будут в каждом миксе (не больше MAX_REQUIRED_FLAVORS = 3)
 profile.excluded;        // Set { 'coconut' }
+profile.selection;       // { concepts: {}, flavors: {}, properties: {}, required: ['mango', 'mint'], excluded: ['coconut'] }
 profile.matched;         // [{ type: 'flavor', id: 'mango', negated: false, partial: false, spans: [{ start: 0, end: 5 }] }, …]
-profile.weights;         // Map ароматов профиля → вес 0..1
+profile.weights;         // Map ароматов профиля → вес
 profile.properties;      // Map свойств (sweet, sour, fresh, creamy, spicy, bitter) → вес
 profile.contradictions;  // ароматы, которые и названы, и исключены
 profile.isEmpty;         // ничего не распознано
 ```
+
+`profile.selection` — тот же запрос в виде выбора: `recommendSelection({ ...profile.selection, seed })` даёт те же
+миксы, что `recommend({ query, seed })` (кроме случайного режима). Так можно начать с текста и дальше менять выбор
+тапами. Отрицание «без» действует на всё, что идёт после него: «без кокоса, сладкий» исключит кокос и
+проигнорирует «сладкий».
 
 `spans` — позиции распознанных слов в исходной строке. С ними и `removeSpans(text, spans)` клиент может аккуратно
 вырезать аромат из запроса вместе с висящим предлогом:
@@ -151,7 +184,8 @@ mixFlavorQuery(mix, catalog, 'ru');             // 'Манго, ананас' �
 | `createSessionSeed()` | случайное зерно для сессии |
 | `isIngredient(flavor)` | `true` для ароматов, `false` для свойств вкуса |
 | `flavorLabel(flavor, lang)` | название аромата на `'ru'` или `'en'` |
-| `MAX_REQUIRED_FLAVORS`, `MIXES_PER_PAGE` | 3 и 3 |
+| `MAX_REQUIRED_FLAVORS`, `MIXES_PER_PAGE`, `MAX_SELECTION_WEIGHT` | 3, 3 и 3 |
+| `normalizeSelection(selection, catalog)`, `SelectionError` | проверка выбора для `recommendSelection` |
 | `CORE_VERSION` | версия ядра, совпадает с `package.json` |
 
 ## Интеграция с приложением Hookah Mixer
@@ -228,6 +262,7 @@ npm run diagnose -- "запрос, ради которого меняли"
 npm run check:words && npm run check:sweep
 npm run diagnose -- --pages=3 "запрос-пример"
 npm run diagnose -- --seed=12345 "запрос-пример"   # воспроизвести выдачу пользователя (зерно из ?debug=1 приложения)
+npm run diagnose -- --selection='{"concepts":{"tropical-fruits":1},"properties":{"sweet":1.5}}'   # выбор вместо текста
 ```
 
 Если поменялся публичный API или поведение, заметное клиенту, — обновите этот README и `CHANGELOG.md`.
@@ -246,7 +281,7 @@ Unit-тестов нет. Качество держится на валидат�
 |---------|---------------|---------------|
 | `npm run validate` | форматы, ссылки между файлами, дубли терминов, диапазоны, конфликт фраз образов | 0 errors, 0 warnings |
 | `npm run check:words` | регрессия распознавания: словоформы и посторонние слова (`tools/wordforms.json`) | 83/83, 12/12 |
-| `npm run check:sweep` | все ароматы, свойства и фразы образов на двух языках: 3 микса, доли = 100, без случайного режима | 889 запросов, 0 проблем |
+| `npm run check:sweep` | все ароматы, свойства и фразы образов на двух языках: 3 микса, доли = 100, без случайного режима; выбор из каждого запроса даёт те же миксы; каждый образ, свойство и аромат через `recommendSelection` | 889 запросов + 223 выбора, 0 проблем |
 | `npm run diagnose -- "запрос"` | разбор, пул кандидатов, миксы по страницам — для разбора конкретных случаев | — |
 | `npm run check` | validate + check:words + check:sweep | — |
 

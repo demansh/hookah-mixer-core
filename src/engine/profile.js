@@ -1,8 +1,8 @@
 import { tokenize, tokenizeWithSpans, tokenMatchScore } from './text.js';
+import { buildProfile, normalizeSelection } from './selection.js';
 
 const NEGATION_TOKENS = new Set(['без', 'кроме', 'no', 'without', 'except']);
 const CONJUNCTION_TOKENS = new Set(['и', 'или', 'а', 'and', 'or']);
-export const MAX_REQUIRED_FLAVORS = 3;
 const PARTIAL_MIN_TOKEN_LENGTH = 4;
 const PARTIAL_MIN_SCORE = 0.75;
 const PARTIAL_WEIGHT_FACTOR = 0.5;
@@ -42,7 +42,7 @@ export function parseQuery(query, catalog, excludedIds = []) {
     index += 1;
   }
   matches.push(...findPartialConceptMatches(unmatchedTokens, matcher));
-  return buildProfile(matches, catalog, excludedIds);
+  return toSelectionProfile(matches, catalog, excludedIds);
 }
 
 function findPartialConceptMatches(unmatchedTokens, matcher) {
@@ -143,20 +143,14 @@ function scoreEntry(tokens, startIndex, entryTokens) {
   return total;
 }
 
-function buildProfile(matches, catalog, excludedIds) {
-  const conceptsById = new Map(catalog.concepts.map((concept) => [concept.id, concept]));
-  const weights = new Map();
-  const properties = new Map();
-  const required = [];
+function toSelectionProfile(matches, catalog, excludedIds) {
+  const contributions = [];
   const excluded = new Set(excludedIds);
-  const avoid = new Set();
   const matched = [];
   const seenMatches = new Map();
-
-  const raiseWeight = (map, id, weight) => {
-    map.set(id, Math.max(map.get(id) ?? 0, weight));
-  };
-  const isProperty = (id) => catalog.flavorsById.get(id)?.kind === 'property';
+  const conceptWeights = {};
+  const propertyWeights = {};
+  const namedFlavors = [];
 
   matches.forEach(({ type, id, negated, weightFactor, span }) => {
     const matchKey = `${type}:${id}:${negated}`;
@@ -174,34 +168,27 @@ function buildProfile(matches, catalog, excludedIds) {
       return;
     }
     if (type === 'concept') {
-      const concept = conceptsById.get(id);
-      Object.entries(concept.tags).forEach(([tagId, weight]) => {
-        raiseWeight(isProperty(tagId) ? properties : weights, tagId, weight * weightFactor);
-      });
-      concept.avoid.forEach((tagId) => avoid.add(tagId));
+      contributions.push({ type, id, weight: weightFactor });
+      conceptWeights[id] = Math.max(conceptWeights[id] ?? 0, weightFactor);
     } else if (type === 'property') {
-      raiseWeight(properties, id, 1);
+      contributions.push({ type, id, weight: 1 });
+      propertyWeights[id] = 1;
     } else {
-      raiseWeight(weights, id, 1);
-      if (!required.includes(id)) {
-        required.push(id);
+      contributions.push({ type: 'required', id });
+      if (!namedFlavors.includes(id)) {
+        namedFlavors.push(id);
       }
     }
   });
 
-  excluded.forEach((id) => weights.delete(id));
-  const contradictions = required.filter((id) => excluded.has(id));
-  const allowedRequired = required.filter((id) => !excluded.has(id)).slice(0, MAX_REQUIRED_FLAVORS);
-  allowedRequired.forEach((id) => avoid.delete(id));
-
-  return {
-    weights,
-    properties,
-    required: allowedRequired,
-    excluded,
-    avoid,
-    matched,
-    contradictions,
-    isEmpty: weights.size === 0 && properties.size === 0,
-  };
+  const profile = buildProfile(contributions, excluded, catalog);
+  const extraFlavors = namedFlavors.filter((id) => !excluded.has(id) && !profile.required.includes(id));
+  const selection = normalizeSelection({
+    concepts: conceptWeights,
+    flavors: Object.fromEntries(extraFlavors.map((id) => [id, 1])),
+    properties: propertyWeights,
+    required: profile.required,
+    excluded: [...excluded].filter((id) => catalog.flavorsById.get(id)?.kind === 'flavor'),
+  }, catalog);
+  return { ...profile, matched, selection };
 }

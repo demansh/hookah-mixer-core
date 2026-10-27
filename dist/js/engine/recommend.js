@@ -1,4 +1,5 @@
 import { parseQuery } from './profile.js';
+import { normalizeSelection, buildProfile, selectionContributions, selectionKey } from './selection.js';
 import { getGraph } from './graph.js';
 import { buildPool, generateCandidates } from './mixes.js';
 import { allocateShares, findPrimaryIndex } from './shares.js';
@@ -39,17 +40,32 @@ const RANDOM_COOLING_WEIGHT = 0.4;
 const rankingCache = new Map();
 
 export async function recommend(request, catalog, page = 0) {
-  const parsedProfile = parseQuery(request.query, catalog);
-  const random = request.seed === undefined ? Math.random : randomFor(request.seed, request.query.toLowerCase(), page);
-  if (parsedProfile.isEmpty) {
-    return randomResult(parsedProfile, catalog, random, request.seed);
+  const profile = parseQuery(request.query, catalog);
+  return recommendForProfile(profile, catalog, page, { key: request.query.toLowerCase(), seed: request.seed });
+}
+
+export async function recommendSelection(request, catalog, page = 0) {
+  const { seed, ...selection } = request;
+  const normalized = normalizeSelection(selection, catalog);
+  const profile = {
+    ...buildProfile(selectionContributions(normalized), normalized.excluded, catalog),
+    matched: [],
+    selection: normalized,
+  };
+  return recommendForProfile(profile, catalog, page, { key: `selection:${selectionKey(normalized)}`, seed });
+}
+
+function recommendForProfile(profile, catalog, page, { key, seed }) {
+  const random = seed === undefined ? Math.random : randomFor(seed, key, page);
+  if (profile.isEmpty) {
+    return randomResult(profile, catalog, random, seed);
   }
-  const rankings = getRankings(request, parsedProfile, catalog);
+  const rankings = getRankings(key, profile, catalog, seed);
   const mixes = toMixes(selectPage(rankings, page), rankings, catalog);
   if (mixes.length > 0 || page > 0) {
-    return { profile: parsedProfile, mixes };
+    return { profile, mixes };
   }
-  return randomResult(parsedProfile, catalog, random, request.seed);
+  return randomResult(profile, catalog, random, seed);
 }
 
 function randomResult(parsedProfile, catalog, random, seed) {
@@ -84,12 +100,12 @@ function pickRandom(items, random) {
   return items[Math.floor(random() * items.length)];
 }
 
-function getRankings(request, profile, catalog) {
-  const cacheKey = JSON.stringify([request.query.toLowerCase(), [...profile.excluded].sort(), request.seed ?? null]);
+function getRankings(key, profile, catalog, seed) {
+  const cacheKey = JSON.stringify([key, [...profile.excluded].sort(), seed ?? null]);
   if (rankingCache.has(cacheKey)) {
     return rankingCache.get(cacheKey);
   }
-  const rankings = computeRankings(profile, catalog, request.seed);
+  const rankings = computeRankings(profile, catalog, seed);
   rankingCache.set(cacheKey, rankings);
   if (rankingCache.size > RANKING_CACHE_SIZE) {
     rankingCache.delete(rankingCache.keys().next().value);
