@@ -1,0 +1,1198 @@
+a,b,affinity,familiarity,note_ru,note_en
+mango,passion_fruit,0.9,classic,маракуйя добавляет кислинку сладкому манго,passion fruit adds tartness to sweet mango
+mango,pineapple,0.8,classic,ананас освежает густое манго сочной кислинкой,pineapple brightens dense mango with juicy tang
+mango,banana,0.6,known,банан делает манго ещё мягче и сливочнее,banana makes mango even softer and creamier
+mango,coconut,0.7,known,кокос даёт манго сливочную тропическую подложку,coconut gives mango a creamy tropical base
+mango,lime,0.8,classic,лайм срезает приторность манго,lime cuts the cloying sweetness of mango
+mango,lemon,0.6,known,,
+mango,orange,0.6,known,,
+mango,grapefruit,0.6,rare,горчинка грейпфрута делает манго взрослее,grapefruit bitterness makes mango more grown-up
+mango,yuzu,0.7,rare,юдзу добавляет манго ароматную цитрусовую искру,yuzu adds an aromatic citrus spark to mango
+mango,strawberry,0.6,known,,
+mango,raspberry,0.6,known,,
+mango,peach,0.7,known,персик и манго вместе дают бархатный летний фрукт,peach and mango together make a velvety summer fruit
+mango,apricot,0.5,rare,абрикос подчёркивает солнечную сладость манго,apricot underlines the sunny sweetness of mango
+mango,basil,0.6,rare,базилик даёт манго пряную зелёную ноту,basil gives mango a spicy green note
+mango,chili,0.5,rare,капля чили превращает манго в острый тропический десерт,a touch of chili turns mango into a spicy tropical treat
+mango,ginger,0.5,rare,имбирь согревает и бодрит сладкое манго,ginger warms and sharpens sweet mango
+mango,cardamom,0.4,rare,кардамон даёт манго восточный оттенок как в ласси,cardamom gives mango an eastern lassi-like twist
+mango,yogurt,0.7,rare,йогурт делает манго похожим на ласси,yogurt turns mango into a lassi
+mango,cream,0.5,known,,
+mango,ice_cream,0.6,known,,
+mango,mint,0.6,known,,
+mango,cooling,0.8,classic,,
+mango,green_tea,0.5,rare,зелёный чай делает манго легче и чище,green tea makes mango lighter and cleaner
+mango,jasmine,0.5,rare,жасмин раскрывает цветочную сторону манго,jasmine reveals the floral side of mango
+mango,rum,0.6,rare,ром превращает манго в тропический коктейль,rum turns mango into a tropical cocktail
+mango,lemonade,0.6,known,,
+mango,melon,0.6,known,,
+mango,lychee,0.5,rare,личи добавляет манго нежный цветочный оттенок,lychee adds a delicate floral note to mango
+mango,guava,0.7,known,,
+mango,papaya,0.6,known,,
+mango,cucumber,0.4,rare,огурец освежает манго и убирает тяжесть,cucumber freshens mango and removes heaviness
+mango,lemongrass,0.6,rare,лемонграсс даёт манго тайскую травянистую свежесть,lemongrass gives mango a thai grassy freshness
+mango,chocolate,-0.2,known,,
+mango,coffee,-0.4,known,кофе глушит фруктовость манго,coffee smothers the fruitiness of mango
+mango,tobacco_leaf,-0.2,known,,
+passion_fruit,pineapple,0.7,known,,
+passion_fruit,guava,0.7,rare,гуава и маракуйя — пара бразильских соков,guava and passion fruit are a Brazilian juice pair
+passion_fruit,orange,0.7,known,апельсин смягчает резкую кислинку маракуйи,orange softens the sharp tartness of passion fruit
+passion_fruit,lime,0.6,known,,
+passion_fruit,raspberry,0.6,rare,малина и маракуйя дают яркий кисло-сладкий дуэт,raspberry and passion fruit make a bright sweet-tart duo
+passion_fruit,strawberry,0.6,known,,
+passion_fruit,vanilla,0.6,rare,ваниль округляет кислинку маракуйи как в десерте,vanilla rounds passion fruit tartness like in a dessert
+passion_fruit,cream,0.5,rare,сливки превращают маракуйю в панакоту,cream turns passion fruit into a panna cotta
+passion_fruit,coconut,0.6,known,,
+passion_fruit,cooling,0.7,classic,,
+passion_fruit,mint,0.5,known,,
+passion_fruit,basil,0.5,rare,базилик добавляет маракуйе свежую пряность,basil adds fresh spice to passion fruit
+passion_fruit,rum,0.6,rare,ром и маракуйя — основа тропических коктейлей,rum and passion fruit form the base of tropical cocktails
+passion_fruit,wine,0.5,rare,игристое с маракуйей звучит как порн стар мартини,sparkling wine with passion fruit evokes a porn star martini
+passion_fruit,peach,0.6,known,,
+passion_fruit,banana,0.5,known,,
+passion_fruit,lemonade,0.6,known,,
+passion_fruit,green_tea,0.5,rare,зелёный чай с маракуйей — лёгкий освежающий напиток,green tea with passion fruit is a light refreshing drink
+passion_fruit,cheesecake,0.5,rare,маракуйя освежает тяжёлый чизкейк,passion fruit freshens a heavy cheesecake
+passion_fruit,chocolate,0.3,rare,кислинка маракуйи оживляет шоколад,passion fruit tartness livens up chocolate
+passion_fruit,cinnamon,-0.3,known,,
+pineapple,coconut,0.9,classic,ананас и кокос — классика пина колады,pineapple and coconut are the classic pina colada
+pineapple,banana,0.6,known,,
+pineapple,orange,0.6,known,,
+pineapple,lime,0.6,known,,
+pineapple,grapefruit,0.4,known,,
+pineapple,strawberry,0.5,known,,
+pineapple,cooling,0.7,classic,,
+pineapple,mint,0.6,known,,
+pineapple,basil,0.5,rare,базилик делает ананас пряно-свежим,basil makes pineapple spicy-fresh
+pineapple,rosemary,0.4,rare,розмарин даёт ананасу смолистую глубину,rosemary gives pineapple a resinous depth
+pineapple,chili,0.5,rare,чили и ананас — сладко-острый уличный перекус,chili and pineapple are a sweet-hot street snack
+pineapple,ginger,0.6,rare,имбирь усиливает сочную кислинку ананаса,ginger amplifies the juicy tang of pineapple
+pineapple,cinnamon,0.3,rare,корица делает ананас похожим на запечённый десерт,cinnamon makes pineapple taste like a baked dessert
+pineapple,caramel,0.5,rare,карамель превращает ананас в перевёрнутый пирог,caramel turns pineapple into an upside-down cake
+pineapple,rum,0.7,known,,
+pineapple,cream,0.4,known,,
+pineapple,ice_cream,0.5,known,,
+pineapple,yogurt,0.5,rare,йогурт делает ананас нежным и освежающим,yogurt makes pineapple gentle and refreshing
+pineapple,cucumber,0.5,rare,огурец и ананас — свежий зелёный смузи,cucumber and pineapple make a fresh green smoothie
+pineapple,green_tea,0.4,rare,зелёный чай делает ананас лёгким и чистым,green tea makes pineapple light and clean
+pineapple,melon,0.5,known,,
+pineapple,watermelon,0.5,known,,
+pineapple,lemonade,0.6,known,,
+pineapple,cola,0.3,rare,ананас добавляет коле сочную фруктовость,pineapple adds juicy fruitiness to cola
+pineapple,sea_buckthorn,0.4,rare,облепиха добавляет ананасу терпкую северную кислинку,sea buckthorn adds a tart northern note to pineapple
+banana,strawberry,0.8,classic,клубника с бананом — классика молочного коктейля,strawberry and banana are the milkshake classic
+banana,chocolate,0.7,known,,
+banana,caramel,0.7,known,карамель и банан — десерт баноффи,caramel and banana make banoffee
+banana,cream,0.6,known,,
+banana,ice_cream,0.6,known,,
+banana,vanilla,0.6,known,,
+banana,cinnamon,0.6,rare,корица превращает банан в запечённый десерт,cinnamon turns banana into a baked dessert
+banana,rum,0.6,rare,ром с бананом — фламбе,rum with banana is a flambé
+banana,coconut,0.6,known,,
+banana,peanut,0.6,rare,арахисовая паста с бананом — любимый сэндвич,peanut butter and banana is a favorite sandwich
+banana,hazelnut,0.6,rare,фундук и банан — как блинчик с нутеллой,hazelnut and banana taste like a nutella crepe
+banana,baked,0.6,rare,выпечка с бананом звучит как банановый хлеб,pastry with banana tastes like banana bread
+banana,cooling,0.2,known,,
+banana,lemon,-0.2,known,,
+banana,grapefruit,-0.4,known,горечь грейпфрута спорит со сливочным бананом,grapefruit bitterness clashes with creamy banana
+banana,mint,-0.2,known,,
+banana,kiwi,0.5,known,,
+banana,blueberry,0.5,rare,черника и банан — ягодный смузи,blueberry and banana make a berry smoothie
+banana,honey,0.6,rare,мёд подчёркивает сливочную сладость банана,honey underlines the creamy sweetness of banana
+banana,coffee,0.4,rare,кофе с бананом дают сливочно-горький десерт,coffee with banana gives a creamy bitter dessert
+banana,yogurt,0.5,known,,
+banana,cardamom,0.4,rare,кардамон делает банан пряным как индийский десерт,cardamom makes banana spicy like an Indian dessert
+banana,tobacco_leaf,0.2,rare,,
+banana,pine,-0.5,known,хвоя и банан звучат как два разных мира,pine and banana feel like two different worlds
+coconut,lime,0.7,known,лайм освежает тяжёлый кокос,lime freshens heavy coconut
+coconut,chocolate,0.7,known,кокос и шоколад — как баунти,coconut and chocolate taste like a Bounty bar
+coconut,vanilla,0.6,known,,
+coconut,cream,0.6,known,,
+coconut,rum,0.7,known,,
+coconut,raspberry,0.6,rare,малина с кокосом — как торт ламингтон,raspberry with coconut evokes a lamington cake
+coconut,strawberry,0.5,known,,
+coconut,lychee,0.6,rare,личи и кокос дают нежный азиатский десерт,lychee and coconut make a delicate asian dessert
+coconut,lemongrass,0.6,rare,лемонграсс и кокос — тайская кухня без остроты,lemongrass and coconut are thai cuisine without heat
+coconut,cardamom,0.5,rare,кардамон делает кокос пряным и восточным,cardamom makes coconut spicy and eastern
+coconut,coffee,0.5,rare,кокос делает кофе мягким как латте,coconut makes coffee soft like a latte
+coconut,almond,0.5,known,,
+coconut,cooling,0.2,known,,
+coconut,mint,-0.2,known,,
+coconut,grapefruit,-0.2,known,,
+coconut,watermelon,0.3,rare,,
+coconut,cinnamon,0.4,rare,,
+guava,strawberry,0.6,rare,клубника подчёркивает цветочную сладость гуавы,strawberry underlines the floral sweetness of guava
+guava,lime,0.6,known,,
+guava,pineapple,0.6,known,,
+guava,raspberry,0.5,rare,малина добавляет гуаве ягодную кислинку,raspberry adds berry tartness to guava
+guava,cream,0.4,rare,сливки и гуава — как бразильский десерт,cream and guava evoke a Brazilian dessert
+guava,cheesecake,0.5,rare,гуава с чизкейком — как бразильский десерт ромео и джульетта,guava with cheesecake echoes Brazil's Romeo and Juliet
+guava,rose,0.4,rare,роза раскрывает цветочность гуавы,rose reveals the floral side of guava
+guava,cooling,0.6,known,,
+guava,mint,0.4,rare,,
+guava,chili,0.4,rare,чили и гуава — острая латиноамериканская пара,chili and guava are a hot Latin American pair
+lychee,rose,0.8,rare,личи и роза — знаменитая пара французских кондитеров,lychee and rose are a famous pastry pairing
+lychee,raspberry,0.7,rare,малина и личи — вкус десерта испахан,raspberry and lychee evoke the Ispahan dessert
+lychee,lime,0.5,known,,
+lychee,green_tea,0.6,rare,зелёный чай подчёркивает цветочность личи,green tea underlines the floral side of lychee
+lychee,jasmine,0.6,rare,жасмин и личи — нежный азиатский цветочный дуэт,jasmine and lychee are a delicate asian floral duo
+lychee,cooling,0.6,known,,
+lychee,watermelon,0.5,rare,арбуз делает личи сочным и водянистым,watermelon makes lychee juicy and watery
+lychee,strawberry,0.5,known,,
+lychee,grapefruit,0.4,rare,,
+lychee,wine,0.5,rare,игристое с личи — праздничный коктейль,sparkling wine with lychee is a festive cocktail
+lychee,mint,0.4,known,,
+lychee,peach,0.5,rare,персик и личи — мягкая цветочно-фруктовая пара,peach and lychee are a soft floral-fruity pair
+kiwi,strawberry,0.8,classic,клубника и киви — классическая сладко-кислая пара,strawberry and kiwi are a classic sweet-tart pair
+kiwi,lime,0.5,known,,
+kiwi,apple,0.5,known,,
+kiwi,cooling,0.6,known,,
+kiwi,mint,0.5,known,,
+kiwi,cucumber,0.5,rare,огурец и киви дают зелёную свежесть,cucumber and kiwi give a green freshness
+kiwi,basil,0.4,rare,,
+kiwi,melon,0.5,rare,дыня смягчает кислинку киви,melon softens the tartness of kiwi
+kiwi,gooseberry,0.5,rare,крыжовник подчёркивает кислую зелень киви,gooseberry stresses the sour greenness of kiwi
+kiwi,yogurt,0.4,rare,,
+kiwi,pineapple,0.5,known,,
+kiwi,feijoa,0.5,rare,фейхоа и киви — две зелёные экзотики,feijoa and kiwi are two green exotics
+pitaya,strawberry,0.5,rare,,
+pitaya,lime,0.6,rare,лайм оживляет нейтральную питайю,lime brings neutral dragon fruit to life
+pitaya,lychee,0.5,rare,личи придаёт питайе цветочный характер,lychee gives dragon fruit a floral character
+pitaya,raspberry,0.5,rare,,
+pitaya,watermelon,0.5,rare,,
+pitaya,cooling,0.5,known,,
+pitaya,passion_fruit,0.5,rare,маракуйя добавляет питайе яркости,passion fruit adds brightness to dragon fruit
+pitaya,mango,0.5,rare,,
+feijoa,apple,0.5,rare,,
+feijoa,lime,0.5,rare,,
+feijoa,mint,0.5,rare,мята подчёркивает хвойную свежесть фейхоа,mint underlines the piney freshness of feijoa
+feijoa,pear,0.5,rare,груша смягчает терпкость фейхоа,pear softens the astringency of feijoa
+feijoa,honey,0.4,rare,,
+feijoa,cooling,0.4,rare,,
+feijoa,ginger,0.4,rare,,
+papaya,lime,0.7,rare,лайм — обязательная пара для папайи,lime is the must-have partner for papaya
+papaya,passion_fruit,0.6,rare,маракуйя добавляет мягкой папайе кислинку,passion fruit adds tartness to soft papaya
+papaya,coconut,0.5,rare,,
+papaya,strawberry,0.4,rare,,
+papaya,ginger,0.4,rare,,
+papaya,orange,0.5,rare,,
+papaya,cooling,0.5,rare,,
+apple,cinnamon,0.9,classic,яблоко с корицей — вкус шарлотки,apple with cinnamon tastes like an apple pie
+apple,caramel,0.8,known,карамельное яблоко — ярмарочная классика,caramel apple is a fair classic
+apple,baked,0.7,known,тесто превращает яблоко в штрудель,pastry turns apple into a strudel
+apple,pear,0.6,known,,
+apple,cooling,0.6,known,,
+apple,mint,0.6,known,,
+apple,lemon,0.5,known,,
+apple,cranberry,0.5,rare,клюква добавляет яблоку зимнюю кислинку,cranberry adds a wintry tartness to apple
+apple,blackcurrant,0.4,rare,,
+apple,raspberry,0.5,known,,
+apple,strawberry,0.5,known,,
+apple,vanilla,0.6,known,,
+apple,honey,0.6,rare,мёд и яблоко — вкус осеннего урожая,honey and apple taste like an autumn harvest
+apple,ginger,0.5,rare,имбирь добавляет яблоку бодрящую остроту,ginger adds a lively heat to apple
+apple,cardamom,0.5,rare,кардамон делает яблоко пряным и свежим,cardamom makes apple spicy and fresh
+apple,clove,0.4,rare,,
+apple,rosemary,0.4,rare,розмарин даёт яблоку садовую пряность,rosemary gives apple a garden spice
+apple,basil,0.4,rare,,
+apple,tarragon,0.5,rare,тархун и зелёное яблоко — освежающий лимонад,tarragon and green apple make a refreshing soda
+apple,cucumber,0.5,rare,огурец и зелёное яблоко — свежий садовый вкус,cucumber and green apple give a fresh garden taste
+apple,whiskey,0.5,rare,виски с яблоком — тёплый осенний коктейль,whiskey with apple is a warm autumn cocktail
+apple,wine,0.4,rare,,
+apple,cream,0.4,known,,
+apple,ice_cream,0.5,known,,
+apple,black_tea,0.5,known,,
+apple,green_tea,0.4,rare,,
+apple,hazelnut,0.4,rare,,
+apple,almond,0.4,rare,,
+apple,quince,0.5,rare,айва усиливает ароматность яблока,quince amplifies the aroma of apple
+apple,melon,0.4,rare,,
+apple,watermelon,0.4,known,,
+apple,grape,0.5,known,,
+apple,cherry,0.4,known,,
+apple,peach,0.4,known,,
+apple,blackberry,0.5,rare,ежевика с яблоком — английский крамбл,blackberry with apple is an English crumble
+double_apple,mint,0.8,classic,мята — классическая пара к двойному яблоку,mint is the classic partner for double apple
+double_apple,cooling,0.5,known,,
+double_apple,grape,0.4,known,,
+double_apple,cardamom,0.5,rare,кардамон усиливает восточный характер двойного яблока,cardamom amplifies the eastern character of double apple
+double_apple,tobacco_leaf,0.6,known,,
+double_apple,lemon,0.3,known,,
+double_apple,cinnamon,0.4,rare,,
+double_apple,honey,0.4,rare,,
+double_apple,black_tea,0.5,rare,двойное яблоко с чёрным чаем — как в турецкой кофейне,double apple with black tea feels like a Turkish café
+double_apple,strawberry,-0.2,known,,
+double_apple,banana,-0.3,known,,
+double_apple,coconut,-0.3,known,,
+double_apple,vanilla,-0.1,known,,
+double_apple,chocolate,-0.3,known,,
+pear,vanilla,0.6,known,,
+pear,caramel,0.6,known,,
+pear,cinnamon,0.6,known,,
+pear,ginger,0.5,rare,имбирь делает мягкую грушу бодрой,ginger makes soft pear lively
+pear,cardamom,0.5,rare,кардамон добавляет груше пряную свежесть,cardamom adds a spicy freshness to pear
+pear,chocolate,0.5,rare,груша с шоколадом — как десерт бель элен,pear with chocolate evokes poire belle Hélène
+pear,cream_soda,0.6,known,,
+pear,lemonade,0.5,known,,
+pear,mint,0.5,known,,
+pear,cooling,0.5,known,,
+pear,rosemary,0.4,rare,,
+pear,lavender,0.4,rare,лаванда делает грушу цветочной и тонкой,lavender makes pear floral and delicate
+pear,elderflower,0.6,rare,бузина подчёркивает медовость груши,elderflower underlines the honeyed side of pear
+pear,honey,0.6,known,,
+pear,blackberry,0.5,rare,ежевика добавляет груше тёмную ягодную глубину,blackberry adds dark berry depth to pear
+pear,raspberry,0.4,rare,,
+pear,lime,0.4,rare,,
+pear,cheesecake,0.4,rare,,
+pear,almond,0.5,rare,миндаль и груша — как французский тарт,almond and pear taste like a French tart
+pear,wine,0.5,rare,груша в вине — классический десерт,pear in wine is a classic dessert
+pear,green_tea,0.4,rare,,
+pear,melon,0.4,rare,,
+pear,peach,0.5,known,,
+peach,apricot,0.6,known,,
+peach,raspberry,0.7,known,персик и малина — как десерт пеш мельба,peach and raspberry evoke peach Melba
+peach,strawberry,0.5,known,,
+peach,black_tea,0.7,classic,персиковый чай — классика холодного чая,peach tea is the iced tea classic
+peach,green_tea,0.5,known,,
+peach,vanilla,0.6,known,,
+peach,cream,0.6,known,,
+peach,yogurt,0.6,known,,
+peach,ice_cream,0.6,known,,
+peach,ginger,0.5,rare,имбирь согревает сладкий персик,ginger warms sweet peach
+peach,basil,0.5,rare,базилик делает персик садовым и свежим,basil makes peach garden-fresh
+peach,rosemary,0.5,rare,розмарин делает персик глубже и менее приторным,rosemary makes peach deeper and less cloying
+peach,lavender,0.4,rare,,
+peach,rose,0.4,rare,,
+peach,cooling,0.6,known,,
+peach,mint,0.5,known,,
+peach,wine,0.6,rare,игристое с персиком — коктейль беллини,sparkling wine with peach is a Bellini
+peach,whiskey,0.4,rare,,
+peach,almond,0.5,rare,,
+peach,honey,0.5,rare,,
+peach,lemon,0.5,known,,
+peach,orange,0.5,known,,
+peach,grapefruit,0.3,rare,,
+peach,melon,0.5,known,,
+peach,watermelon,0.4,known,,
+peach,lemonade,0.5,known,,
+peach,cinnamon,0.3,rare,,
+peach,cheesecake,0.5,rare,,
+apricot,almond,0.7,rare,абрикос и миндаль — как марципановый пирог,apricot and almond taste like a marzipan tart
+apricot,vanilla,0.5,known,,
+apricot,cream,0.5,rare,,
+apricot,honey,0.5,rare,,
+apricot,cardamom,0.5,rare,кардамон даёт абрикосу восточный оттенок,cardamom gives apricot an eastern twist
+apricot,ginger,0.4,rare,,
+apricot,rosemary,0.4,rare,,
+apricot,lavender,0.4,rare,лаванда и абрикос — вкус прованского лета,lavender and apricot taste like a Provence summer
+apricot,raspberry,0.5,rare,,
+apricot,orange,0.5,known,,
+apricot,black_tea,0.5,rare,,
+apricot,baked,0.5,rare,,
+apricot,cooling,0.4,known,,
+apricot,sea_buckthorn,0.5,rare,облепиха и абрикос — солнечный оранжевый дуэт,sea buckthorn and apricot are a sunny orange duo
+apricot,yogurt,0.4,rare,,
+apricot,cheesecake,0.4,rare,,
+plum,cinnamon,0.6,known,,
+plum,clove,0.5,rare,,
+plum,cardamom,0.5,rare,,
+plum,vanilla,0.5,known,,
+plum,chocolate,0.5,rare,чернослив в шоколаде — советская классика,prunes in chocolate are a Soviet classic
+plum,almond,0.5,rare,,
+plum,black_tea,0.5,rare,,
+plum,wine,0.5,rare,,
+plum,rum,0.4,rare,,
+plum,blackberry,0.5,rare,,
+plum,cherry,0.5,known,,
+plum,ginger,0.4,rare,,
+plum,baked,0.5,rare,сливовый пирог — уютная осенняя выпечка,plum cake is a cozy autumn pastry
+plum,cooling,0.3,known,,
+plum,lemon,0.3,rare,,
+plum,rose,0.3,rare,,
+cherry,chocolate,0.8,classic,вишня с шоколадом — как торт чёрный лес,cherry with chocolate tastes like Black Forest cake
+cherry,vanilla,0.6,known,,
+cherry,cola,0.7,known,вишнёвая кола — проверенная газировка,cherry cola is a proven soda
+cherry,almond,0.6,rare,миндаль подчёркивает косточковую ноту вишни,almond underlines the pit note of cherry
+cherry,cream,0.5,known,,
+cherry,cheesecake,0.6,known,,
+cherry,cooling,0.6,known,,
+cherry,mint,0.5,known,,
+cherry,lime,0.4,rare,,
+cherry,lemon,0.4,known,,
+cherry,cinnamon,0.4,rare,,
+cherry,clove,0.4,rare,гвоздика с вишней — как глинтвейн,clove with cherry evokes mulled wine
+cherry,black_tea,0.4,rare,,
+cherry,rum,0.5,rare,,
+cherry,whiskey,0.5,rare,,
+cherry,wine,0.5,rare,,
+cherry,raspberry,0.5,known,,
+cherry,strawberry,0.4,known,,
+cherry,blackcurrant,0.5,rare,,
+cherry,pomegranate,0.5,rare,,
+cherry,baked,0.5,rare,вишнёвый пирог — уютная классика,cherry pie is a cozy classic
+cherry,coffee,0.3,rare,,
+cherry,rose,0.4,rare,,
+cherry,energy_drink,0.4,known,,
+grape,mint,0.9,classic,виноград с мятой — одна из самых популярных пар,grape with mint is one of the most popular pairs
+grape,cooling,0.7,classic,,
+grape,lemon,0.4,known,,
+grape,lime,0.4,known,,
+grape,blueberry,0.5,known,,
+grape,blackcurrant,0.5,rare,,
+grape,raspberry,0.4,known,,
+grape,strawberry,0.4,known,,
+grape,peach,0.4,known,,
+grape,melon,0.4,rare,,
+grape,watermelon,0.4,known,,
+grape,lemonade,0.5,known,,
+grape,energy_drink,0.5,known,,
+grape,gum,0.5,known,,
+grape,basil,0.4,rare,,
+grape,rosemary,0.4,rare,розмарин с виноградом — средиземноморский сад,rosemary with grape evokes a Mediterranean garden
+grape,lavender,0.4,rare,,
+grape,elderflower,0.5,rare,бузина делает виноград лёгким и цветочным,elderflower makes grape light and floral
+grape,wine,0.4,rare,,
+grape,cinnamon,0.3,rare,,
+grape,green_tea,0.4,rare,,
+grape,cucumber,0.3,rare,,
+grape,aloe,0.4,rare,алоэ и виноград — освежающий корейский напиток,aloe and grape are a refreshing Korean drink
+pomegranate,raspberry,0.5,rare,,
+pomegranate,orange,0.6,known,,
+pomegranate,lime,0.5,rare,,
+pomegranate,mint,0.6,known,мята освежает терпкий гранат,mint freshens astringent pomegranate
+pomegranate,cooling,0.5,known,,
+pomegranate,rose,0.6,rare,роза и гранат — вкус восточного базара,rose and pomegranate taste like an eastern bazaar
+pomegranate,cardamom,0.5,rare,,
+pomegranate,black_tea,0.4,rare,,
+pomegranate,hibiscus,0.5,rare,каркаде и гранат — рубиновый кисло-терпкий дуэт,hibiscus and pomegranate are a ruby tart duo
+pomegranate,apple,0.4,rare,,
+pomegranate,cranberry,0.4,rare,,
+pomegranate,grapefruit,0.4,rare,,
+pomegranate,blueberry,0.4,rare,,
+pomegranate,wine,0.4,rare,,
+pomegranate,vanilla,0.3,rare,,
+fig,honey,0.7,rare,инжир с мёдом — густой средиземноморский десерт,fig with honey is a dense Mediterranean dessert
+fig,vanilla,0.5,rare,,
+fig,cinnamon,0.5,rare,,
+fig,cardamom,0.5,rare,кардамон подчёркивает восточный характер инжира,cardamom stresses the eastern character of fig
+fig,almond,0.5,rare,,
+fig,hazelnut,0.4,rare,,
+fig,black_tea,0.5,rare,,
+fig,rum,0.4,rare,,
+fig,whiskey,0.4,rare,,
+fig,lavender,0.4,rare,,
+fig,rose,0.4,rare,,
+fig,cheesecake,0.5,rare,,
+fig,orange,0.4,rare,,
+fig,tobacco_leaf,0.4,rare,табачная нота делает инжир глубоким и тёмным,a tobacco note makes fig deep and dark
+fig,cooling,-0.1,known,,
+quince,cinnamon,0.5,rare,,
+quince,vanilla,0.5,rare,,
+quince,honey,0.5,rare,,
+quince,black_tea,0.5,rare,айвовое варенье к чаю — домашняя классика,quince jam with tea is a homemade classic
+quince,cardamom,0.4,rare,,
+quince,clove,0.4,rare,,
+quince,pear,0.4,rare,,
+quince,rose,0.4,rare,,
+quince,cream,0.3,rare,,
+persimmon,cinnamon,0.5,rare,,
+persimmon,vanilla,0.4,rare,,
+persimmon,ginger,0.5,rare,имбирь бодрит медовую хурму,ginger livens up honeyed persimmon
+persimmon,orange,0.4,rare,,
+persimmon,cream,0.4,rare,,
+persimmon,green_tea,0.3,rare,,
+persimmon,mandarin,0.5,rare,хурма и мандарин — вкус зимнего фруктового стола,persimmon and mandarin taste like a winter fruit bowl
+persimmon,cardamom,0.4,rare,,
+watermelon,mint,0.8,classic,мята усиливает свежесть арбуза,mint amplifies the freshness of watermelon
+watermelon,melon,0.8,classic,арбуз и дыня — классический летний дуэт,watermelon and melon are the classic summer duo
+watermelon,cooling,0.8,classic,,
+watermelon,lime,0.6,known,,
+watermelon,lemon,0.5,known,,
+watermelon,strawberry,0.7,known,,
+watermelon,raspberry,0.5,known,,
+watermelon,cucumber,0.6,rare,огурец усиливает водянистую свежесть арбуза,cucumber amplifies the watery freshness of watermelon
+watermelon,basil,0.5,rare,базилик делает арбуз пряным и взрослым,basil makes watermelon spicy and grown-up
+watermelon,chili,0.4,rare,чили с арбузом — мексиканская уличная еда,chili with watermelon is Mexican street food
+watermelon,rose,0.4,rare,,
+watermelon,lemonade,0.6,known,,
+watermelon,energy_drink,0.4,known,,
+watermelon,gum,0.5,known,,
+watermelon,aloe,0.5,rare,алоэ делает арбуз ещё более сочным,aloe makes watermelon even juicier
+watermelon,lemongrass,0.4,rare,,
+watermelon,grapefruit,0.4,rare,,
+watermelon,blueberry,0.4,known,,
+watermelon,green_tea,0.3,rare,,
+watermelon,wine,0.4,rare,,
+watermelon,cream,-0.2,known,,
+watermelon,chocolate,-0.5,known,шоколад тяжелит лёгкий арбуз,chocolate weighs down light watermelon
+watermelon,coffee,-0.5,known,,
+watermelon,cinnamon,-0.4,known,,
+melon,cooling,0.7,classic,,
+melon,mint,0.6,known,,
+melon,cucumber,0.5,rare,огурец подчёркивает свежесть дыни,cucumber underlines the freshness of melon
+melon,lime,0.5,known,,
+melon,lemon,0.4,known,,
+melon,strawberry,0.5,known,,
+melon,blueberry,0.4,rare,,
+melon,raspberry,0.4,rare,,
+melon,cream,0.5,rare,дыня со сливками — нежный летний десерт,melon with cream is a gentle summer dessert
+melon,ice_cream,0.5,known,,
+melon,vanilla,0.5,rare,,
+melon,honey,0.5,rare,,
+melon,basil,0.4,rare,,
+melon,ginger,0.4,rare,,
+melon,jasmine,0.4,rare,жасмин раскрывает медовость дыни,jasmine reveals the honeyed side of melon
+melon,green_tea,0.4,rare,,
+melon,lemonade,0.5,known,,
+melon,wine,0.4,rare,,
+melon,banana,0.4,known,,
+melon,coffee,-0.4,known,,
+lemon,mint,0.8,classic,лимон с мятой — классический освежающий дуэт,lemon with mint is the classic refreshing duo
+lemon,cooling,0.7,classic,,
+lemon,black_tea,0.8,classic,чай с лимоном — привычная домашняя пара,tea with lemon is the familiar home pairing
+lemon,green_tea,0.5,known,,
+lemon,ginger,0.7,known,имбирь и лимон дают бодрящую остроту,ginger and lemon give an invigorating heat
+lemon,honey,0.7,known,мёд и лимон — согревающая классика,honey and lemon are a warming classic
+lemon,lime,0.5,known,,
+lemon,orange,0.5,known,,
+lemon,strawberry,0.5,known,,
+lemon,raspberry,0.6,known,,
+lemon,blueberry,0.6,known,,
+lemon,blackberry,0.5,rare,,
+lemon,lavender,0.5,rare,лаванда превращает лимон в прованский лимонад,lavender turns lemon into a Provence lemonade
+lemon,basil,0.5,rare,базилик делает лимон пряным и зелёным,basil makes lemon spicy and green
+lemon,rosemary,0.5,rare,розмарин и лимон — средиземноморская пара,rosemary and lemon are a Mediterranean pair
+lemon,tarragon,0.5,rare,,
+lemon,lemongrass,0.4,rare,,
+lemon,elderflower,0.6,rare,бузина и лимон — английский летний напиток,elderflower and lemon are an English summer drink
+lemon,vanilla,0.4,rare,ваниль смягчает лимон как в лимонном курде,vanilla softens lemon like lemon curd
+lemon,cheesecake,0.6,known,,
+lemon,cream,0.3,rare,,
+lemon,baked,0.5,rare,лимонный тарт — свежая выпечка,lemon tart is a fresh pastry
+lemon,lemonade,0.5,known,,
+lemon,cola,0.4,known,,
+lemon,cucumber,0.5,rare,огурец и лимон — освежающая вода со льдом,cucumber and lemon are refreshing iced water
+lemon,coffee,-0.3,known,,
+lemon,chocolate,-0.3,known,,
+lemon,yogurt,0.3,rare,,
+lemon,whiskey,0.4,rare,лимон с виски — коктейль виски сауэр,lemon with whiskey is a whiskey sour
+lemon,yuzu,0.4,rare,,
+lemon,cardamom,0.4,rare,,
+lemon,pine,0.3,rare,,
+lemon,condensed_milk,-0.3,known,,
+lime,mint,0.9,classic,лайм с мятой — основа мохито,lime with mint is the base of a mojito
+lime,cooling,0.7,classic,,
+lime,rum,0.6,known,,
+lime,ginger,0.6,known,,
+lime,basil,0.5,rare,базилик и лайм — пряная зелёная свежесть,basil and lime give a spicy green freshness
+lime,tarragon,0.5,rare,,
+lime,lemongrass,0.6,rare,лемонграсс с лаймом — свежесть тайской кухни,lemongrass with lime is the freshness of thai cuisine
+lime,chili,0.5,rare,лайм и чили — острая мексиканская пара,lime and chili are a hot Mexican pair
+lime,cucumber,0.6,rare,огурец с лаймом — ледяная зелёная свежесть,cucumber with lime is an icy green freshness
+lime,strawberry,0.5,known,,
+lime,raspberry,0.5,known,,
+lime,blackberry,0.4,rare,,
+lime,cola,0.5,known,,
+lime,lemonade,0.5,known,,
+lime,green_tea,0.4,rare,,
+lime,orange,0.4,known,,
+lime,grapefruit,0.5,known,,
+lime,vanilla,0.3,rare,,
+lime,cream,-0.2,known,,
+lime,cheesecake,0.5,rare,лайм освежает сливочный чизкейк,lime freshens a creamy cheesecake
+lime,yuzu,0.4,rare,,
+lime,aloe,0.4,rare,,
+lime,hibiscus,0.4,rare,,
+orange,cinnamon,0.7,known,апельсин с корицей — новогодний пряный вкус,orange with cinnamon is a festive spiced taste
+orange,clove,0.6,rare,гвоздика с апельсином — как глинтвейн,clove with orange evokes mulled wine
+orange,chocolate,0.7,known,апельсин и шоколад — как шоколад с цедрой,orange and chocolate taste like zesty chocolate
+orange,vanilla,0.6,known,,
+orange,cream,0.4,rare,сливки с апельсином — вкус фруктового мороженого,cream with orange tastes like a creamsicle
+orange,cardamom,0.5,rare,,
+orange,ginger,0.5,rare,,
+orange,mint,0.5,known,,
+orange,cooling,0.6,known,,
+orange,strawberry,0.5,known,,
+orange,raspberry,0.5,known,,
+orange,blueberry,0.4,rare,,
+orange,cranberry,0.5,rare,клюква с апельсином — яркий зимний дуэт,cranberry with orange is a bright winter duo
+orange,grapefruit,0.5,known,,
+orange,mandarin,0.5,known,,
+orange,black_tea,0.5,known,,
+orange,rum,0.5,rare,,
+orange,whiskey,0.5,rare,,
+orange,coffee,0.4,rare,апельсин и кофе — как эспрессо-тоник,orange and coffee evoke an espresso tonic
+orange,rosemary,0.4,rare,,
+orange,basil,0.4,rare,,
+orange,lavender,0.3,rare,,
+orange,energy_drink,0.4,known,,
+orange,lemonade,0.5,known,,
+orange,almond,0.4,rare,,
+orange,sea_buckthorn,0.5,rare,облепиха и апельсин — витаминный оранжевый дуэт,sea buckthorn and orange are a vitamin-rich orange duo
+mandarin,cinnamon,0.6,rare,,
+mandarin,clove,0.5,rare,,
+mandarin,chocolate,0.6,rare,мандарин с шоколадом — новогодний подарок,mandarin with chocolate is a New Year gift
+mandarin,vanilla,0.5,rare,,
+mandarin,cooling,0.5,known,,
+mandarin,mint,0.5,known,,
+mandarin,cranberry,0.5,rare,клюква с мандарином — зимний праздничный вкус,cranberry with mandarin is a festive winter taste
+mandarin,pine,0.5,rare,хвоя и мандарин — запах новогодней ёлки,pine and mandarin smell like a New Year tree
+mandarin,black_tea,0.5,rare,,
+mandarin,green_tea,0.4,rare,,
+mandarin,ginger,0.4,rare,,
+mandarin,cardamom,0.4,rare,,
+mandarin,wine,0.4,rare,игристое с мандарином — новогодний бокал,sparkling wine with mandarin is a New Year glass
+mandarin,strawberry,0.4,rare,,
+mandarin,raspberry,0.4,rare,,
+mandarin,lemonade,0.4,known,,
+grapefruit,raspberry,0.7,known,грейпфрут с малиной — сладко-горький розовый лимонад,grapefruit with raspberry is a bittersweet pink lemonade
+grapefruit,cooling,0.6,known,,
+grapefruit,mint,0.5,known,,
+grapefruit,rosemary,0.6,rare,розмарин и грейпфрут — средиземноморская свежесть,rosemary and grapefruit are a Mediterranean freshness
+grapefruit,basil,0.4,rare,,
+grapefruit,ginger,0.4,rare,,
+grapefruit,strawberry,0.5,known,,
+grapefruit,blackcurrant,0.4,rare,,
+grapefruit,elderflower,0.5,rare,бузина смягчает горечь грейпфрута,elderflower softens the bitterness of grapefruit
+grapefruit,lemonade,0.5,known,,
+grapefruit,energy_drink,0.4,known,,
+grapefruit,honey,0.4,rare,,
+grapefruit,green_tea,0.3,rare,,
+grapefruit,cucumber,0.4,rare,,
+grapefruit,vanilla,-0.2,known,,
+grapefruit,chocolate,-0.4,known,,
+grapefruit,caramel,-0.3,known,,
+grapefruit,cream,-0.4,known,,
+grapefruit,condensed_milk,-0.5,known,горечь грейпфрута сворачивает молочные вкусы,grapefruit bitterness curdles milky flavors
+bergamot,black_tea,0.9,classic,бергамот с чёрным чаем — эрл грей,bergamot with black tea is Earl Grey
+bergamot,vanilla,0.5,rare,ваниль смягчает цветочную горчинку бергамота,vanilla softens the floral bitterness of bergamot
+bergamot,lavender,0.5,rare,лаванда и бергамот — как чай леди грей,lavender and bergamot evoke Lady Grey tea
+bergamot,cream,0.4,rare,сливки и бергамот — латте лондонский туман,cream and bergamot are a London Fog latte
+bergamot,orange,0.5,rare,,
+bergamot,lemon,0.5,rare,,
+bergamot,blueberry,0.4,rare,,
+bergamot,cooling,0.3,rare,,
+bergamot,rose,0.4,rare,,
+bergamot,green_tea,0.4,rare,,
+bergamot,honey,0.4,rare,,
+bergamot,mint,0.3,rare,,
+yuzu,green_tea,0.6,rare,юдзу с зелёным чаем — японская чайная классика,yuzu with green tea is a Japanese tea classic
+yuzu,honey,0.5,rare,мёд и юдзу — корейский согревающий чай,honey and yuzu are a warming Korean tea
+yuzu,ginger,0.5,rare,,
+yuzu,cooling,0.5,rare,,
+yuzu,mint,0.4,rare,,
+yuzu,strawberry,0.4,rare,,
+yuzu,raspberry,0.4,rare,,
+yuzu,lychee,0.5,rare,личи и юдзу — нежная азиатская пара,lychee and yuzu are a delicate asian pair
+yuzu,peach,0.5,rare,,
+yuzu,elderflower,0.4,rare,,
+yuzu,cucumber,0.4,rare,,
+yuzu,jasmine,0.4,rare,,
+strawberry,cream,0.8,classic,клубника со сливками — летняя классика,strawberries and cream are a summer classic
+strawberry,vanilla,0.7,known,,
+strawberry,chocolate,0.6,known,,
+strawberry,cheesecake,0.7,known,,
+strawberry,ice_cream,0.6,known,,
+strawberry,yogurt,0.5,known,,
+strawberry,mint,0.6,known,,
+strawberry,cooling,0.6,known,,
+strawberry,basil,0.6,rare,базилик делает клубнику пряной и свежей,basil makes strawberry spicy and fresh
+strawberry,chili,0.3,rare,,
+strawberry,rose,0.5,rare,роза подчёркивает аромат клубники,rose underlines the aroma of strawberry
+strawberry,raspberry,0.6,known,,
+strawberry,blueberry,0.5,known,,
+strawberry,blackberry,0.4,known,,
+strawberry,rhubarb,0.7,rare,ревень и клубника — английский пирог,rhubarb and strawberry are an English pie
+strawberry,wine,0.6,rare,клубника с шампанским — праздничная пара,strawberries with champagne are a festive pair
+strawberry,lemonade,0.5,known,,
+strawberry,gum,0.5,known,,
+strawberry,marshmallow,0.5,rare,,
+strawberry,green_tea,0.4,rare,,
+strawberry,black_tea,0.4,rare,,
+strawberry,elderflower,0.5,rare,бузина и клубника — вкус летнего сада,elderflower and strawberry taste like a summer garden
+strawberry,cucumber,0.4,rare,,
+strawberry,cotton_candy,0.4,rare,,
+raspberry,chocolate,0.7,known,малина и тёмный шоколад — насыщенная пара,raspberry and dark chocolate are a rich pair
+raspberry,vanilla,0.6,known,,
+raspberry,cream,0.6,known,,
+raspberry,cheesecake,0.6,known,,
+raspberry,rose,0.6,rare,роза и малина — французский кондитерский дуэт,rose and raspberry are a French pastry duo
+raspberry,mint,0.6,known,,
+raspberry,cooling,0.6,known,,
+raspberry,black_tea,0.6,known,малиновое варенье к чаю — уютная классика,raspberry jam with tea is a cozy classic
+raspberry,blackberry,0.6,known,,
+raspberry,blueberry,0.6,known,,
+raspberry,blackcurrant,0.5,known,,
+raspberry,almond,0.5,rare,миндаль и малина — как пирог бейквелл,almond and raspberry evoke a Bakewell tart
+raspberry,basil,0.4,rare,,
+raspberry,ginger,0.4,rare,,
+raspberry,lemonade,0.6,known,,
+raspberry,energy_drink,0.4,known,,
+raspberry,hibiscus,0.5,rare,каркаде подчёркивает кислинку малины,hibiscus underlines the tartness of raspberry
+raspberry,yogurt,0.5,known,,
+raspberry,wine,0.5,rare,,
+raspberry,cotton_candy,0.4,rare,,
+raspberry,elderflower,0.4,rare,,
+blueberry,mint,0.8,classic,черника с мятой — одна из самых частых пар,blueberry with mint is one of the most common pairs
+blueberry,cooling,0.7,classic,,
+blueberry,vanilla,0.6,known,,
+blueberry,cream,0.6,known,,
+blueberry,cheesecake,0.7,known,,
+blueberry,baked,0.6,rare,черничный маффин — уютная выпечка,a blueberry muffin is a cozy pastry
+blueberry,yogurt,0.5,known,,
+blueberry,lavender,0.5,rare,лаванда добавляет чернике цветочную глубину,lavender adds floral depth to blueberry
+blueberry,basil,0.4,rare,,
+blueberry,cinnamon,0.4,rare,,
+blueberry,blackberry,0.6,known,,
+blueberry,blackcurrant,0.5,rare,,
+blueberry,black_tea,0.5,known,,
+blueberry,green_tea,0.4,rare,,
+blueberry,pine,0.4,rare,хвоя с черникой — вкус северного леса,pine with blueberry tastes like a northern forest
+blueberry,violet,0.5,rare,фиалка делает чернику пудровой и тонкой,violet makes blueberry powdery and delicate
+blueberry,lemonade,0.5,known,,
+blueberry,energy_drink,0.4,known,,
+blueberry,rosemary,0.4,rare,,
+blackberry,vanilla,0.5,known,,
+blackberry,cream,0.5,rare,,
+blackberry,mint,0.5,known,,
+blackberry,cooling,0.5,known,,
+blackberry,rosemary,0.4,rare,,
+blackberry,black_tea,0.5,rare,,
+blackberry,blackcurrant,0.5,rare,,
+blackberry,cheesecake,0.5,rare,,
+blackberry,violet,0.4,rare,,
+blackberry,ginger,0.4,rare,,
+blackberry,whiskey,0.4,rare,ежевика с виски — тёмный осенний коктейль,blackberry with whiskey is a dark autumn cocktail
+blackberry,wine,0.4,rare,,
+blackcurrant,mint,0.6,known,,
+blackcurrant,cooling,0.5,known,,
+blackcurrant,black_tea,0.6,known,чай со смородиной — дачная классика,tea with blackcurrant is a dacha classic
+blackcurrant,vanilla,0.4,rare,,
+blackcurrant,cream,0.4,rare,,
+blackcurrant,violet,0.4,rare,,
+blackcurrant,rose,0.3,rare,,
+blackcurrant,lemonade,0.5,known,,
+blackcurrant,energy_drink,0.4,rare,,
+blackcurrant,pine,0.3,rare,,
+blackcurrant,eucalyptus,0.3,rare,,
+redcurrant,vanilla,0.4,rare,,
+redcurrant,cream,0.4,rare,,
+redcurrant,mint,0.5,rare,,
+redcurrant,raspberry,0.5,rare,,
+redcurrant,strawberry,0.4,rare,,
+redcurrant,marshmallow,0.5,rare,зефир смягчает кислую красную смородину,marshmallow softens sour redcurrant
+redcurrant,cooling,0.4,rare,,
+redcurrant,lemonade,0.4,rare,,
+cranberry,mint,0.5,known,,
+cranberry,cooling,0.5,known,,
+cranberry,honey,0.5,rare,мёд и клюква — согревающий морс,honey and cranberry are a warming berry drink
+cranberry,ginger,0.5,rare,,
+cranberry,cinnamon,0.4,rare,,
+cranberry,vanilla,0.4,rare,,
+cranberry,black_tea,0.4,rare,,
+cranberry,pine,0.5,rare,клюква и хвоя — морс в зимнем лесу,cranberry and pine are a berry drink in a winter forest
+cranberry,lemonade,0.5,known,,
+cranberry,lime,0.4,rare,,
+cranberry,raspberry,0.4,rare,,
+cranberry,marshmallow,0.4,rare,,
+gooseberry,mint,0.5,rare,,
+gooseberry,elderflower,0.6,rare,бузина и крыжовник — английская летняя пара,elderflower and gooseberry are an English summer pair
+gooseberry,cream,0.4,rare,,
+gooseberry,vanilla,0.4,rare,,
+gooseberry,cooling,0.4,rare,,
+gooseberry,lime,0.4,rare,,
+gooseberry,green_tea,0.3,rare,,
+sea_buckthorn,honey,0.6,rare,облепиха с мёдом — согревающий чай,sea buckthorn with honey is a warming tea
+sea_buckthorn,ginger,0.5,rare,имбирь и облепиха — бодрящий зимний чай,ginger and sea buckthorn are an invigorating winter tea
+sea_buckthorn,black_tea,0.5,rare,,
+sea_buckthorn,cinnamon,0.4,rare,,
+sea_buckthorn,mint,0.4,rare,,
+sea_buckthorn,cooling,0.4,rare,,
+sea_buckthorn,mandarin,0.4,rare,,
+sea_buckthorn,rosemary,0.3,rare,,
+forest_berries,mint,0.6,known,,
+forest_berries,cooling,0.6,known,,
+forest_berries,vanilla,0.5,known,,
+forest_berries,cream,0.5,known,,
+forest_berries,black_tea,0.6,known,,
+forest_berries,pine,0.5,rare,хвоя добавляет лесным ягодам дух настоящего леса,pine adds a real forest spirit to forest berries
+forest_berries,yogurt,0.4,rare,,
+forest_berries,cheesecake,0.5,known,,
+forest_berries,lemonade,0.5,known,,
+forest_berries,basil,0.3,rare,,
+vanilla,caramel,0.6,known,,
+vanilla,chocolate,0.5,known,,
+vanilla,cream,0.6,known,,
+vanilla,cinnamon,0.6,known,,
+vanilla,cardamom,0.5,rare,кардамон делает ваниль пряной и свежей,cardamom makes vanilla spicy and fresh
+vanilla,coffee,0.6,known,,
+vanilla,cola,0.5,known,,
+vanilla,cream_soda,0.4,known,,
+vanilla,black_tea,0.4,rare,,
+vanilla,tobacco_leaf,0.6,known,ваниль и табак — тёплый парфюмерный аккорд,vanilla and tobacco are a warm perfume accord
+vanilla,rum,0.5,rare,,
+vanilla,whiskey,0.5,rare,,
+vanilla,almond,0.5,known,,
+vanilla,hazelnut,0.5,known,,
+vanilla,lavender,0.4,rare,,
+vanilla,rose,0.4,rare,,
+vanilla,cooling,0.0,known,,
+vanilla,mint,-0.2,known,,
+vanilla,chili,0.3,rare,,
+caramel,coffee,0.7,known,карамельный латте — проверенная пара,caramel latte is a proven pair
+caramel,chocolate,0.6,known,,
+caramel,cream,0.6,known,,
+caramel,hazelnut,0.6,known,,
+caramel,peanut,0.6,rare,арахис с карамелью — как сникерс,peanut with caramel tastes like a Snickers
+caramel,almond,0.5,rare,,
+caramel,cinnamon,0.6,known,,
+caramel,baked,0.6,known,,
+caramel,cookie,0.6,known,,
+caramel,whiskey,0.6,rare,виски и карамель — тёплый бархатный дуэт,whiskey and caramel are a warm velvety duo
+caramel,rum,0.5,rare,,
+caramel,tobacco_leaf,0.5,rare,,
+caramel,cola,0.4,rare,,
+caramel,pistachio,0.4,rare,,
+caramel,cooling,-0.2,known,,
+caramel,mint,-0.3,known,,
+chocolate,mint,0.6,known,мятный шоколад — как after eight,mint chocolate tastes like After Eight
+chocolate,coffee,0.7,known,кофе с шоколадом — мокко,coffee with chocolate is a mocha
+chocolate,hazelnut,0.8,classic,шоколад с фундуком — как нутелла,chocolate with hazelnut tastes like Nutella
+chocolate,peanut,0.6,known,,
+chocolate,almond,0.5,known,,
+chocolate,cream,0.5,known,,
+chocolate,chili,0.5,rare,чили с шоколадом — ацтекский горячий шоколад,chili with chocolate is Aztec hot chocolate
+chocolate,cinnamon,0.6,rare,корица и шоколад — мексиканский какао,cinnamon and chocolate are Mexican cocoa
+chocolate,cardamom,0.4,rare,,
+chocolate,ginger,0.4,rare,,
+chocolate,rum,0.5,rare,,
+chocolate,whiskey,0.5,rare,,
+chocolate,marshmallow,0.6,rare,маршмеллоу и шоколад — как смор у костра,marshmallow and chocolate taste like campfire s'mores
+chocolate,cookie,0.6,known,,
+chocolate,tobacco_leaf,0.5,rare,,
+chocolate,lavender,0.3,rare,,
+chocolate,rose,0.3,rare,,
+chocolate,pistachio,0.4,rare,,
+chocolate,cooling,0.1,known,,
+chocolate,cola,0.2,rare,,
+cream,honey,0.5,rare,,
+cream,cinnamon,0.5,known,,
+cream,coffee,0.6,known,,
+cream,black_tea,0.6,known,чай со сливками — английская традиция,tea with cream is an English tradition
+cream,green_tea,0.4,rare,сливки с матчей — матча латте,cream with matcha is a matcha latte
+cream,cardamom,0.5,rare,,
+cream,whiskey,0.5,rare,,
+cream,cooling,-0.1,known,,
+ice_cream,coffee,0.6,known,мороженое с кофе — аффогато,ice cream with coffee is an affogato
+ice_cream,chocolate,0.6,known,,
+ice_cream,caramel,0.6,known,,
+ice_cream,cooling,0.3,known,,
+ice_cream,mint,0.4,known,,
+ice_cream,cola,0.5,rare,кола с пломбиром — коктейль из детства,cola with ice cream is a childhood float
+ice_cream,cream_soda,0.5,rare,,
+ice_cream,pistachio,0.6,rare,фисташковое мороженое — итальянская классика,pistachio ice cream is an Italian classic
+ice_cream,cookie,0.5,rare,,
+cheesecake,caramel,0.5,known,,
+cheesecake,cookie,0.5,rare,,
+cheesecake,vanilla,0.5,known,,
+cheesecake,cooling,-0.1,known,,
+yogurt,honey,0.5,rare,,
+yogurt,cardamom,0.4,rare,,
+yogurt,mint,0.4,rare,,
+yogurt,cooling,0.3,rare,,
+yogurt,cucumber,0.4,rare,огурец с йогуртом — освежающий дзадзики,cucumber with yogurt is a refreshing tzatziki
+condensed_milk,coffee,0.6,rare,сгущёнка и кофе — вьетнамский кофе,condensed milk and coffee are Vietnamese coffee
+condensed_milk,cookie,0.6,rare,печенье со сгущёнкой — вкус детства,cookies with condensed milk taste like childhood
+condensed_milk,banana,0.5,rare,,
+condensed_milk,strawberry,0.5,rare,,
+condensed_milk,hazelnut,0.5,rare,,
+condensed_milk,black_tea,0.4,rare,,
+condensed_milk,cooling,-0.2,known,,
+honey,ginger,0.6,known,,
+honey,cinnamon,0.5,known,,
+honey,black_tea,0.6,known,,
+honey,green_tea,0.5,rare,,
+honey,lavender,0.5,rare,лавандовый мёд — тёплый цветочный вкус,lavender honey is a warm floral taste
+honey,almond,0.5,rare,,
+honey,whiskey,0.5,rare,,
+honey,cooling,0.0,known,,
+honey,mint,0.3,rare,,
+honey,eucalyptus,0.4,rare,мёд и эвкалипт — как леденцы от кашля,honey and eucalyptus taste like cough drops
+honey,rose,0.3,rare,,
+marshmallow,vanilla,0.5,known,,
+marshmallow,cooling,0.0,known,,
+marshmallow,cream_soda,0.4,rare,,
+marshmallow,cotton_candy,0.4,rare,,
+marshmallow,cookie,0.4,rare,,
+baked,cinnamon,0.7,known,корица с выпечкой — вкус синнабона,cinnamon with pastry tastes like a cinnamon roll
+baked,vanilla,0.6,known,,
+baked,cream,0.5,known,,
+baked,honey,0.5,rare,,
+baked,cardamom,0.6,rare,кардамон с булочкой — шведская пекарня,cardamom with pastry evokes a Swedish bakery
+baked,black_tea,0.5,rare,,
+baked,coffee,0.5,rare,,
+baked,cooling,-0.3,known,,
+cookie,vanilla,0.5,known,,
+cookie,cream,0.5,known,,
+cookie,hazelnut,0.5,rare,,
+cookie,peanut,0.5,rare,,
+cookie,coffee,0.5,rare,,
+cookie,black_tea,0.4,rare,,
+cookie,cinnamon,0.5,known,,
+cookie,cooling,-0.3,known,,
+gum,cooling,0.6,known,,
+gum,mint,0.6,known,,
+gum,cotton_candy,0.4,rare,,
+gum,energy_drink,0.4,rare,,
+gum,lemonade,0.3,rare,,
+gum,tobacco_leaf,-0.5,known,жвачка и табачный лист звучат как два разных мира,gum and tobacco leaf feel like two different worlds
+barberry,cooling,0.4,rare,,
+barberry,mint,0.4,rare,,
+barberry,lemonade,0.4,rare,,
+barberry,cherry,0.4,rare,,
+barberry,raspberry,0.4,rare,,
+barberry,black_tea,0.4,rare,барбариски к чаю — вкус советской кухни,barberry candy with tea tastes like a Soviet kitchen
+fruit_candy,cooling,0.5,known,,
+fruit_candy,energy_drink,0.4,rare,,
+fruit_candy,lemonade,0.4,rare,,
+fruit_candy,cotton_candy,0.4,rare,,
+fruit_candy,strawberry,0.4,known,,
+fruit_candy,watermelon,0.4,known,,
+cotton_candy,vanilla,0.4,known,,
+cotton_candy,blueberry,0.3,rare,,
+cotton_candy,cooling,0.3,rare,,
+cinnamon,cardamom,0.5,rare,,
+cinnamon,clove,0.5,known,,
+cinnamon,ginger,0.5,known,,
+cinnamon,anise,0.4,rare,,
+cinnamon,black_tea,0.6,known,пряный чай с корицей — уют в чашке,spiced tea with cinnamon is coziness in a cup
+cinnamon,coffee,0.6,known,,
+cinnamon,cola,0.4,rare,,
+cinnamon,rum,0.5,rare,,
+cinnamon,whiskey,0.4,rare,,
+cinnamon,wine,0.5,rare,корица с вином — глинтвейн,cinnamon with wine is mulled wine
+cinnamon,cooling,-0.5,known,холодок спорит с тёплой корицей,ice clashes with warm cinnamon
+cinnamon,mint,-0.3,known,,
+cinnamon,tobacco_leaf,0.4,rare,,
+cinnamon,almond,0.4,rare,,
+cinnamon,hazelnut,0.4,rare,,
+cardamom,coffee,0.7,rare,кардамон с кофе — арабский кофе,cardamom with coffee is Arabic coffee
+cardamom,black_tea,0.7,known,кардамон и чёрный чай — основа масала чая,cardamom and black tea are the base of masala chai
+cardamom,rose,0.5,rare,роза и кардамон — индийский десерт,rose and cardamom are an Indian dessert
+cardamom,pistachio,0.6,rare,фисташка с кардамоном — восточная сладость,pistachio with cardamom is an eastern sweet
+cardamom,ginger,0.5,known,,
+cardamom,clove,0.4,rare,,
+cardamom,mint,0.3,rare,,
+cardamom,cooling,-0.2,known,,
+cardamom,tobacco_leaf,0.4,rare,,
+ginger,green_tea,0.5,rare,,
+ginger,black_tea,0.5,known,,
+ginger,lemonade,0.5,known,имбирный лимонад — острая свежесть,ginger lemonade is a spicy freshness
+ginger,cola,0.4,rare,,
+ginger,rum,0.5,rare,,
+ginger,whiskey,0.5,rare,,
+ginger,lemongrass,0.5,rare,лемонграсс и имбирь — пряная азиатская свежесть,lemongrass and ginger are a spicy asian freshness
+ginger,mint,0.4,known,,
+ginger,cooling,0.2,known,,
+ginger,cookie,0.5,rare,имбирное печенье — рождественский вкус,gingerbread cookie is a Christmas taste
+ginger,clove,0.4,rare,,
+clove,black_tea,0.4,rare,,
+clove,wine,0.6,known,гвоздика с вином — глинтвейн,clove with wine is mulled wine
+clove,rum,0.4,rare,,
+clove,cola,0.3,rare,,
+clove,cooling,-0.6,known,холодок обостряет резкость гвоздики,ice sharpens the harshness of clove
+clove,mint,-0.4,known,,
+clove,tobacco_leaf,0.4,rare,,
+anise,mint,0.4,known,,
+anise,black_tea,0.3,rare,,
+anise,tobacco_leaf,0.4,rare,,
+anise,cooling,0.0,known,,
+anise,lemon,0.3,rare,,
+anise,coffee,0.3,rare,,
+anise,strawberry,-0.3,known,,
+anise,chocolate,0.2,rare,,
+anise,cola,0.3,rare,,
+chili,cola,0.3,rare,,
+chili,cooling,-0.3,known,,
+chili,mint,-0.2,known,,
+chili,coffee,0.2,rare,,
+chili,honey,0.4,rare,мёд с чили — сладко-острая глазурь,honey with chili is a sweet-hot glaze
+chili,rum,0.3,rare,,
+mint,eucalyptus,0.5,known,,
+mint,basil,0.4,rare,,
+mint,tarragon,0.4,rare,,
+mint,green_tea,0.7,classic,зелёный чай с мятой — марокканская классика,green tea with mint is a Moroccan classic
+mint,black_tea,0.5,known,,
+mint,lemonade,0.6,known,,
+mint,cola,0.2,rare,,
+mint,rum,0.6,known,,
+mint,coffee,0.2,rare,,
+mint,cooling,0.6,classic,,
+mint,cucumber,0.6,known,,
+mint,aloe,0.4,rare,,
+mint,rose,0.3,rare,,
+mint,whiskey,0.4,rare,мята с бурбоном — коктейль минт джулеп,mint with bourbon is a mint julep
+mint,tobacco_leaf,0.3,rare,,
+mint,lavender,0.3,rare,,
+mint,energy_drink,0.3,rare,,
+eucalyptus,cooling,0.6,known,,
+eucalyptus,lemon,0.4,rare,,
+eucalyptus,pine,0.4,rare,,
+eucalyptus,chocolate,-0.4,known,,
+eucalyptus,vanilla,-0.3,known,,
+eucalyptus,grapefruit,0.3,rare,,
+basil,lemonade,0.4,rare,,
+basil,cooling,0.3,rare,,
+basil,cucumber,0.5,rare,базилик и огурец — свежая садовая зелень,basil and cucumber are fresh garden greens
+basil,green_tea,0.3,rare,,
+basil,lemongrass,0.3,rare,,
+basil,chocolate,-0.3,known,,
+basil,caramel,-0.3,known,,
+tarragon,lemonade,0.6,known,тархун — классический советский лимонад,tarragon is a classic Soviet lemonade
+tarragon,cooling,0.5,known,,
+tarragon,cucumber,0.4,rare,,
+tarragon,pear,0.4,rare,,
+tarragon,orange,0.3,rare,,
+tarragon,cream_soda,0.4,rare,,
+rosemary,honey,0.4,rare,,
+rosemary,cooling,0.2,rare,,
+rosemary,lemonade,0.4,rare,,
+rosemary,pine,0.4,rare,,
+rosemary,chocolate,-0.2,known,,
+lemongrass,green_tea,0.6,rare,лемонграсс с зелёным чаем — лёгкий травяной сбор,lemongrass with green tea is a light herbal blend
+lemongrass,cooling,0.5,rare,,
+lemongrass,cucumber,0.4,rare,,
+lemongrass,lemonade,0.4,rare,,
+pine,cooling,0.5,known,,
+pine,honey,0.4,rare,,
+pine,black_tea,0.4,rare,,
+pine,lemonade,0.3,rare,,
+pine,mint,0.4,rare,,
+pine,tobacco_leaf,0.3,rare,,
+pine,chocolate,-0.3,known,,
+rose,green_tea,0.5,rare,,
+rose,black_tea,0.5,rare,,
+rose,pistachio,0.6,rare,роза и фисташка — турецкий лукум,rose and pistachio are Turkish delight
+rose,wine,0.4,rare,,
+rose,cooling,0.2,rare,,
+rose,cream,0.4,rare,,
+rose,coffee,-0.3,known,,
+rose,cola,-0.4,known,,
+jasmine,green_tea,0.8,known,жасминовый чай — самая известная цветочная пара,jasmine tea is the most famous floral pairing
+jasmine,peach,0.5,rare,,
+jasmine,honey,0.4,rare,,
+jasmine,cooling,0.3,rare,,
+jasmine,lemon,0.4,rare,,
+jasmine,cream,0.3,rare,,
+lavender,lemonade,0.5,rare,лавандовый лимонад — прованское лето,lavender lemonade is a Provence summer
+lavender,cream,0.4,rare,,
+lavender,black_tea,0.4,rare,,
+lavender,cooling,0.2,rare,,
+lavender,coffee,-0.2,known,,
+lavender,cola,-0.4,known,,
+elderflower,cucumber,0.5,rare,бузина и огурец — английский садовый лимонад,elderflower and cucumber are an English garden lemonade
+elderflower,lemonade,0.5,rare,,
+elderflower,wine,0.5,rare,бузина с игристым — коктейль хуго,elderflower with sparkling wine is a Hugo spritz
+elderflower,mint,0.5,rare,,
+elderflower,cooling,0.4,rare,,
+elderflower,green_tea,0.4,rare,,
+violet,vanilla,0.4,rare,,
+violet,raspberry,0.4,rare,,
+violet,cream,0.3,rare,,
+violet,cooling,0.1,rare,,
+violet,cola,-0.3,known,,
+black_tea,cooling,0.3,known,,
+black_tea,whiskey,0.4,rare,,
+black_tea,rum,0.4,rare,,
+black_tea,cola,-0.2,known,,
+black_tea,energy_drink,-0.3,known,,
+black_tea,tobacco_leaf,0.4,rare,,
+green_tea,cooling,0.4,known,,
+green_tea,cucumber,0.4,rare,,
+green_tea,coffee,-0.4,known,,
+green_tea,chocolate,-0.3,known,,
+hibiscus,cooling,0.5,known,,
+hibiscus,mint,0.5,rare,,
+hibiscus,ginger,0.5,rare,имбирь и каркаде — согревающий рубиновый чай,ginger and hibiscus are a warming ruby tea
+hibiscus,orange,0.4,rare,,
+hibiscus,strawberry,0.4,rare,,
+hibiscus,cinnamon,0.4,rare,,
+hibiscus,honey,0.4,rare,,
+mate,lemon,0.5,rare,,
+mate,mint,0.5,rare,мята освежает землистый мате,mint freshens earthy mate
+mate,orange,0.4,rare,,
+mate,honey,0.4,rare,,
+mate,cooling,0.3,rare,,
+mate,grapefruit,0.4,rare,,
+cola,cooling,0.6,known,,
+cola,rum,0.6,known,ром с колой — простой и проверенный коктейль,rum and cola is a simple proven cocktail
+cola,whiskey,0.6,known,,
+cola,coffee,0.3,rare,,
+cola,energy_drink,0.3,rare,,
+lemonade,cooling,0.6,known,,
+lemonade,energy_drink,0.3,rare,,
+lemonade,wine,0.3,rare,,
+energy_drink,cooling,0.6,known,,
+energy_drink,coffee,-0.3,known,,
+energy_drink,tobacco_leaf,-0.4,known,,
+coffee,hazelnut,0.7,known,кофе с фундуком — кофейня в чашке,coffee with hazelnut is a coffeehouse in a cup
+coffee,almond,0.5,rare,,
+coffee,whiskey,0.6,rare,виски с кофе — ирландский кофе,whiskey with coffee is an Irish coffee
+coffee,rum,0.5,rare,,
+coffee,tobacco_leaf,0.5,rare,,
+coffee,cooling,-0.2,known,,
+coffee,cream_soda,0.2,rare,,
+coffee,pistachio,0.4,rare,,
+coffee,peanut,0.3,rare,,
+cream_soda,cooling,0.5,known,,
+cream_soda,cherry,0.4,rare,,
+cream_soda,raspberry,0.4,rare,,
+rum,cooling,0.3,rare,,
+rum,tobacco_leaf,0.5,rare,ром с табаком — кубинский вечер,rum with tobacco is a Cuban evening
+wine,cooling,0.3,rare,,
+whiskey,tobacco_leaf,0.6,rare,виски и табачный лист — аромат сигарного клуба,whiskey and tobacco leaf smell like a cigar lounge
+whiskey,cooling,-0.1,known,,
+whiskey,almond,0.4,rare,,
+almond,cooling,-0.1,known,,
+almond,pistachio,0.4,rare,,
+hazelnut,cooling,-0.2,known,,
+hazelnut,tobacco_leaf,0.4,rare,,
+pistachio,cream,0.5,rare,,
+pistachio,vanilla,0.4,rare,,
+pistachio,cooling,0.0,known,,
+pistachio,raspberry,0.5,rare,малина с фисташкой — нарядный десерт,raspberry with pistachio is an elegant dessert
+peanut,cooling,-0.3,known,,
+peanut,strawberry,0.4,rare,арахис с клубникой — американский сэндвич,peanut with strawberry is an American sandwich
+cucumber,cooling,0.6,known,,
+cucumber,aloe,0.5,rare,алоэ и огурец — максимально лёгкая зелёная свежесть,aloe and cucumber are the lightest green freshness
+cucumber,lemonade,0.4,rare,,
+cucumber,chocolate,-0.6,known,,
+cucumber,caramel,-0.5,known,,
+cucumber,coffee,-0.5,known,,
+rhubarb,vanilla,0.5,rare,ваниль смягчает кислый ревень,vanilla softens sour rhubarb
+rhubarb,ginger,0.5,rare,,
+rhubarb,cream,0.5,rare,,
+rhubarb,raspberry,0.4,rare,,
+rhubarb,apple,0.4,rare,,
+rhubarb,orange,0.4,rare,,
+rhubarb,cooling,0.3,rare,,
+aloe,cooling,0.5,known,,
+aloe,green_tea,0.4,rare,,
+aloe,lychee,0.4,rare,,
+aloe,strawberry,0.4,rare,,
+tobacco_leaf,cooling,-0.2,known,,
+tobacco_leaf,honey,0.4,rare,,
+popcorn,caramel,0.8,known,карамельный попкорн — запах кинотеатра,caramel popcorn smells like a movie theater
+popcorn,cola,0.6,known,попкорн с колой — вечер в кино,popcorn with cola is a night at the movies
+popcorn,vanilla,0.5,known,,
+popcorn,chocolate,0.5,rare,шоколад делает попкорн похожим на конфету,chocolate turns popcorn into a candy bar
+popcorn,peanut,0.5,rare,арахис и попкорн — сладко-солёная закуска,peanut and popcorn are a sweet-salty snack
+popcorn,cream,0.4,rare,,
+popcorn,cinnamon,0.4,rare,корица делает попкорн похожим на ярмарочное лакомство,cinnamon makes popcorn taste like a fair treat
+popcorn,strawberry,0.3,rare,,
+popcorn,cherry,0.3,rare,,
+popcorn,coffee,0.3,rare,,
+popcorn,condensed_milk,0.5,rare,сгущёнка превращает попкорн в тягучую карамель,condensed milk turns popcorn into chewy caramel
+popcorn,maple_syrup,0.6,rare,кленовый сироп делает попкорн похожим на американскую ярмарку,maple syrup makes popcorn taste like an American fair
+popcorn,cream_soda,0.4,rare,,
+popcorn,hazelnut,0.4,rare,,
+popcorn,banana,0.3,rare,,
+popcorn,cooling,-0.2,known,,
+popcorn,cucumber,-0.5,known,,
+popcorn,lemon,-0.2,known,,
+popcorn,mint,-0.3,known,,
+popcorn,tobacco_leaf,-0.3,known,,
+cereal,cream,0.7,known,хлопья с молоком — классический завтрак,cereal with milk is the classic breakfast
+cereal,strawberry,0.6,known,,
+cereal,banana,0.6,known,,
+cereal,blueberry,0.5,rare,черника с хлопьями — ягодный завтрак,blueberry with cereal is a berry breakfast
+cereal,honey,0.6,known,мёд с хлопьями — как медовые колечки,honey with cereal tastes like honey rings
+cereal,chocolate,0.5,known,шоколадные шарики к завтраку,chocolate cereal balls for breakfast
+cereal,yogurt,0.6,rare,йогурт с гранолой — лёгкий завтрак,yogurt with granola is a light breakfast
+cereal,raspberry,0.5,rare,,
+cereal,cinnamon,0.5,rare,корица с хлопьями — как пряные подушечки,cinnamon with cereal tastes like spiced cereal squares
+cereal,apple,0.5,rare,яблоко с гранолой — бодрый завтрак,apple with granola is an energizing breakfast
+cereal,maple_syrup,0.5,rare,,
+cereal,almond,0.5,rare,,
+cereal,fruit_candy,0.4,rare,фруктовые хлопья — разноцветные колечки из детства,fruity cereal is colorful childhood rings
+cereal,coffee,0.3,rare,,
+cereal,orange,0.3,rare,,
+cereal,cooling,-0.2,known,,
+cereal,cucumber,-0.4,known,,
+pancake,maple_syrup,0.9,known,панкейки с кленовым сиропом — американский завтрак,pancakes with maple syrup are an American breakfast
+pancake,banana,0.7,known,,
+pancake,honey,0.7,known,блины с мёдом — масленичная классика,pancakes with honey are a Maslenitsa classic
+pancake,condensed_milk,0.7,known,блины со сгущёнкой — вкус детства,pancakes with condensed milk taste like childhood
+pancake,strawberry,0.6,known,,
+pancake,blueberry,0.6,known,черничные панкейки — уютный завтрак,blueberry pancakes are a cozy breakfast
+pancake,raspberry,0.5,rare,,
+pancake,cream,0.6,known,,
+pancake,vanilla,0.5,known,,
+pancake,chocolate,0.5,known,,
+pancake,hazelnut,0.5,rare,блинчик с фундуком — как с нутеллой,a pancake with hazelnut tastes like nutella
+pancake,orange,0.5,rare,апельсин с блинами — креп сюзетт,orange with pancakes is crepe suzette
+pancake,apple,0.5,rare,,
+pancake,cinnamon,0.5,rare,,
+pancake,cherry,0.4,rare,,
+pancake,sea_buckthorn,0.3,rare,,
+pancake,black_tea,0.4,rare,блины к чаю — русская традиция,pancakes with tea are a Russian tradition
+pancake,coffee,0.4,rare,,
+pancake,cooling,-0.2,known,,
+pancake,cucumber,-0.5,known,,
+pancake,mint,-0.2,known,,
+waffle,vanilla,0.6,known,,
+waffle,ice_cream,0.7,known,мороженое в вафельном рожке — вкус лета,ice cream in a waffle cone tastes like summer
+waffle,chocolate,0.6,known,,
+waffle,caramel,0.6,known,,
+waffle,strawberry,0.6,known,венские вафли с клубникой,belgian waffles with strawberries
+waffle,banana,0.5,rare,,
+waffle,maple_syrup,0.6,rare,,
+waffle,cream,0.5,known,,
+waffle,condensed_milk,0.6,rare,вафли со сгущёнкой — советский вафельный торт,waffles with condensed milk are a Soviet wafer cake
+waffle,hazelnut,0.5,rare,,
+waffle,cherry,0.4,rare,,
+waffle,coffee,0.4,rare,,
+waffle,cooling,-0.1,known,,
+waffle,cucumber,-0.5,known,,
+waffle,mint,-0.2,known,,
+maple_syrup,vanilla,0.5,known,,
+maple_syrup,cinnamon,0.5,rare,,
+maple_syrup,banana,0.6,rare,банан с кленовым сиропом — запечённый десерт,banana with maple syrup is a baked dessert
+maple_syrup,hazelnut,0.5,rare,,
+maple_syrup,almond,0.4,rare,,
+maple_syrup,coffee,0.5,rare,кленовый сироп в кофе — осенний латте,maple syrup in coffee is an autumn latte
+maple_syrup,whiskey,0.6,rare,кленовый сироп с бурбоном — коктейль олд фэшн,maple syrup with bourbon is an old fashioned
+maple_syrup,apple,0.5,rare,,
+maple_syrup,pear,0.4,rare,,
+maple_syrup,tobacco_leaf,0.4,rare,,
+maple_syrup,cream,0.5,rare,,
+maple_syrup,blueberry,0.4,rare,,
+maple_syrup,cooling,-0.2,known,,
+maple_syrup,lemon,-0.1,known,,
+maple_syrup,cucumber,-0.5,known,,
+chamomile,honey,0.8,known,ромашковый чай с мёдом — классика спокойного вечера,chamomile tea with honey is a calm evening classic
+chamomile,lemon,0.6,known,лимон освежает мягкую ромашку,lemon freshens soft chamomile
+chamomile,mint,0.5,known,,
+chamomile,green_tea,0.5,known,,
+chamomile,black_tea,0.4,rare,,
+chamomile,apple,0.5,rare,ромашка пахнет яблоком — недаром её зовут земляным яблоком,chamomile smells of apple — its name means earth apple
+chamomile,pear,0.5,rare,груша подчёркивает медовость ромашки,pear underlines the honeyed side of chamomile
+chamomile,apricot,0.5,rare,абрикос и ромашка — солнечный летний луг,apricot and chamomile are a sunny summer meadow
+chamomile,peach,0.5,rare,,
+chamomile,vanilla,0.5,rare,ваниль делает ромашку уютной как вечерний десерт,vanilla makes chamomile cozy like an evening dessert
+chamomile,cream,0.4,rare,сливки и ромашка — успокаивающий латте,cream and chamomile are a soothing latte
+chamomile,lavender,0.5,rare,лаванда и ромашка — травяной сбор для сна,lavender and chamomile are a bedtime herbal blend
+chamomile,elderflower,0.5,rare,,
+chamomile,rose,0.3,rare,,
+chamomile,lemongrass,0.4,rare,,
+chamomile,orange,0.4,rare,,
+chamomile,melon,0.4,rare,,
+chamomile,strawberry,0.3,rare,,
+chamomile,blueberry,0.3,rare,,
+chamomile,ginger,0.3,rare,,
+chamomile,cooling,0.2,rare,,
+chamomile,coffee,-0.3,known,кофе заглушает нежную ромашку,coffee drowns delicate chamomile
+chamomile,cola,-0.4,known,,
+chamomile,energy_drink,-0.4,known,,
+chamomile,chili,-0.4,known,,
+chamomile,tobacco_leaf,-0.2,known,,

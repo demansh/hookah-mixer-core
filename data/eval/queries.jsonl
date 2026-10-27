@@ -1,0 +1,2 @@
+{"q":"манго с холодком","lang":"ru","type":"direct","must":["mango","cooling"],"ok":["fresh"],"forbid":["black_tea"]}
+{"q":"Evening on a hot tropical island","lang":"en","type":"abstract","must":["mango"],"ok":["passion_fruit","coconut","sweet"],"forbid":["cooling","black_tea"]}

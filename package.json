@@ -1,0 +1,25 @@
+{
+  "name": "hookah-mixer-core",
+  "version": "0.1.0",
+  "description": "Ядро Hookah Mixer: база знаний о сочетаниях ароматов и движок подбора миксов",
+  "type": "module",
+  "private": true,
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "validate": "node tools/validate.js",
+    "build": "node tools/build.js",
+    "diagnose": "node tools/diagnose.js",
+    "check:words": "node tools/check-words.js",
+    "check:sweep": "node tools/sweep.js",
+    "check": "npm run validate && npm run check:words && npm run check:sweep"
+  },
+  "devDependencies": {
+    "yaml": "^2.5.0"
+  }
+}

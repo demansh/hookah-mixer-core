@@ -1,0 +1,110 @@
+id,category,role,intensity,sweet,sour,fresh,ru,en,synonyms_ru,synonyms_en,description_ru,description_en
+mango,fruit_tropical,base,3,4,1,1,манго,mango,,,сладкий сочный спелый тропический фрукт с густой мякотью,sweet juicy ripe tropical fruit with thick pulp
+passion_fruit,fruit_tropical,accent,4,2,4,2,маракуйя,passion fruit,маракуя,maracuja|passionfruit,кисло-сладкий ароматный тропический фрукт,tart-sweet aromatic tropical fruit
+pineapple,fruit_tropical,base,3,3,3,2,ананас,pineapple,,,сочный кисло-сладкий тропический фрукт,juicy tangy-sweet tropical fruit
+banana,fruit_tropical,base,3,4,0,0,банан,banana,,,сладкий мягкий сливочный тропический фрукт,sweet soft creamy tropical fruit
+coconut,fruit_tropical,support,3,2,0,0,кокос,coconut,,,сливочный ореховый тропический вкус,creamy nutty tropical taste
+guava,fruit_tropical,base,3,3,2,1,гуава,guava,,,сладкий цветочный тропический фрукт с лёгкой кислинкой,sweet floral tropical fruit with light tartness
+lychee,fruit_tropical,base,2,4,1,2,личи,lychee,,litchi,нежный сладкий цветочно-фруктовый вкус,delicate sweet floral fruity taste
+kiwi,fruit_tropical,accent,3,2,4,3,киви,kiwi,,kiwifruit,свежий кисловатый зелёный фрукт,fresh tart green fruit
+pitaya,fruit_tropical,base,1,2,1,2,питайя,dragon fruit,драконий фрукт|питахайя,pitaya,лёгкий водянистый сладковатый экзотический фрукт,light watery mildly sweet exotic fruit
+feijoa,fruit_tropical,accent,3,3,3,2,фейхоа,feijoa,,,ароматный кисло-сладкий зелёный экзотический фрукт,aromatic tart-sweet green exotic fruit
+papaya,fruit_tropical,base,2,3,1,1,папайя,papaya,,,мягкий сладкий тропический фрукт с мускусной ноткой,soft sweet tropical fruit with a musky note
+apple,fruit_orchard,base,2,3,3,3,яблоко,apple,зелёное яблоко|красное яблоко,green apple|red apple,сочный хрустящий кисло-сладкий фрукт,juicy crisp sweet-tart fruit
+double_apple,fruit_orchard,base,4,3,1,0,двойное яблоко,double apple,,,яблоко с пряным анисом в классическом кальянном стиле,apple with spicy anise in classic hookah style
+pear,fruit_orchard,base,2,4,1,2,груша,pear,дюшес,,сладкий сочный ароматный фрукт с медовой ноткой,sweet juicy aromatic fruit with a honey note
+peach,fruit_orchard,base,3,4,1,1,персик,peach,нектарин,nectarine,сладкий бархатистый сочный фрукт,sweet velvety juicy fruit
+apricot,fruit_orchard,base,3,4,2,1,абрикос,apricot,курага,dried apricot,сладкий солнечный фрукт с лёгкой кислинкой,sweet sunny fruit with slight tartness
+plum,fruit_orchard,base,3,3,2,0,слива,plum,чернослив,prune,сладкий тёмный фрукт с кислинкой у кожицы,sweet dark fruit with tart skin
+cherry,fruit_orchard,base,3,3,3,1,вишня,cherry,черешня,sour cherry|sweet cherry,кисло-сладкая тёмно-красная ягода с косточковой ноткой,sweet-tart dark red fruit with a pit note
+grape,fruit_orchard,base,3,4,1,1,виноград,grape,изабелла,,сладкие сочные гроздья с винной ноткой,sweet juicy bunches with a winey note
+pomegranate,fruit_orchard,accent,3,2,4,2,гранат,pomegranate,,,терпкий кисло-сладкий рубиновый сок,astringent tart-sweet ruby juice
+fig,fruit_orchard,base,3,4,0,0,инжир,fig,смоква,,густой медовый сладкий фрукт,thick honeyed sweet fruit
+quince,fruit_orchard,accent,3,3,2,1,айва,quince,,,терпкий ароматный фрукт с яблочно-грушевыми нотами,astringent aromatic fruit with apple-pear notes
+persimmon,fruit_orchard,base,2,4,0,0,хурма,persimmon,,,густой медовый вяжущий осенний фрукт,thick honeyed astringent autumn fruit
+watermelon,melon,base,2,3,1,4,арбуз,watermelon,,,освежающий водянистый сладкий летний вкус,refreshing watery sweet summer taste
+melon,melon,base,3,4,0,2,дыня,melon,,cantaloupe|honeydew,сладкий медовый ароматный летний вкус,sweet honeyed aromatic summer taste
+lemon,citrus,accent,4,1,5,4,лимон,lemon,,,кислый яркий свежий цитрус,sour bright fresh citrus
+lime,citrus,accent,4,1,5,4,лайм,lime,,,кислый терпкий зелёный цитрус с горчинкой цедры,sour sharp green citrus with bitter zest
+orange,citrus,base,3,3,3,3,апельсин,orange,красный апельсин,blood orange,сладкий сочный солнечный цитрус,sweet juicy sunny citrus
+mandarin,citrus,base,3,4,2,3,мандарин,mandarin,танжерин,tangerine|clementine,сладкий ароматный новогодний цитрус,sweet fragrant festive citrus
+grapefruit,citrus,accent,4,1,4,3,грейпфрут,grapefruit,помело,pomelo,горьковато-кислый сочный цитрус,bitter-sour juicy citrus
+bergamot,citrus,accent,4,1,3,3,бергамот,bergamot,,,ароматный цветочный цитрус с горчинкой,aromatic floral citrus with bitterness
+yuzu,citrus,accent,4,1,4,4,юдзу,yuzu,юзу,,терпкий ароматный японский цитрус,tart aromatic japanese citrus
+strawberry,berry,base,3,4,1,2,клубника,strawberry,земляника|виктория,wild strawberry,сладкая ароматная летняя ягода,sweet fragrant summer berry
+raspberry,berry,base,3,3,3,2,малина,raspberry,,,сладкая ягода с лёгкой кислинкой,sweet berry with slight tartness
+blueberry,berry,base,3,4,1,1,черника,blueberry,голубика,bilberry,сладкая лесная тёмная ягода,sweet dark forest berry
+blackberry,berry,base,3,3,2,1,ежевика,blackberry,,,сладко-терпкая тёмная ягода,sweet-tart dark berry
+blackcurrant,berry,accent,4,2,4,1,чёрная смородина,blackcurrant,смородина,black currant|cassis,терпкая насыщенная кисло-сладкая ягода,astringent rich tart-sweet berry
+redcurrant,berry,accent,3,1,5,3,красная смородина,redcurrant,,red currant,очень кислая яркая ягода,very sour bright berry
+cranberry,berry,accent,3,1,5,3,клюква,cranberry,брусника,lingonberry,кислая терпкая северная ягода,sour astringent northern berry
+gooseberry,berry,accent,3,2,4,3,крыжовник,gooseberry,,,кисло-сладкая зелёная ягода,tart-sweet green berry
+sea_buckthorn,berry,accent,3,2,4,2,облепиха,sea buckthorn,,,кисло-терпкая оранжевая ягода с маслянистой ноткой,sour-astringent orange berry with an oily note
+forest_berries,berry,base,3,3,3,2,лесные ягоды,forest berries,ягодный микс|ягоды,mixed berries|berries,смесь сладких и кислых лесных ягод,blend of sweet and sour forest berries
+vanilla,dessert,support,3,4,0,0,ваниль,vanilla,,,мягкий тёплый сладкий аромат,soft warm sweet aroma
+caramel,dessert,support,4,5,0,0,карамель,caramel,ириска|тоффи|солёная карамель,toffee|salted caramel|butterscotch,густая сладость жжёного сахара,thick burnt sugar sweetness
+chocolate,dessert,accent,4,3,0,0,шоколад,chocolate,какао,cocoa,насыщенный сладкий горьковатый вкус какао,rich sweet slightly bitter cocoa taste
+cream,dessert,support,2,3,0,0,сливки,cream,молоко,milk,нежный жирный молочный вкус,gentle rich dairy taste
+ice_cream,dessert,support,3,4,0,2,мороженое,ice cream,пломбир,gelato,холодный сливочно-ванильный десерт,cold creamy vanilla dessert
+cheesecake,dessert,base,3,4,1,0,чизкейк,cheesecake,творожный десерт,,сливочный сырный десерт на песочной основе,creamy cheese dessert on a shortbread base
+yogurt,dessert,support,2,2,3,2,йогурт,yogurt,,yoghurt,кисломолочный нежный освежающий вкус,tangy gentle refreshing dairy taste
+condensed_milk,dessert,support,4,5,0,0,сгущёнка,condensed milk,сгущённое молоко|варёная сгущёнка,dulce de leche,очень сладкий густой молочный вкус,very sweet thick milky taste
+honey,dessert,support,4,5,0,0,мёд,honey,,,густая цветочная тягучая сладость,thick floral syrupy sweetness
+marshmallow,dessert,support,3,5,0,0,маршмеллоу,marshmallow,зефир|пастила,,воздушная ванильно-сахарная сладость,airy vanilla sugar sweetness
+maple_syrup,dessert,support,4,5,0,0,кленовый сироп,maple syrup,клён|кленовый,maple,густая древесно-карамельная сладость клёна,thick woody caramel sweetness of maple
+baked,bakery,support,3,3,0,0,выпечка,pastry,пирог|тесто|сдоба,pie|dough|baked goods,тёплое сдобное тесто и румяная корочка,warm buttery dough and golden crust
+cookie,bakery,support,3,4,0,0,печенье,cookie,бисквит|крекер,biscuit|cracker,хрустящая сладкая выпечка на сливочном масле,crunchy sweet butter baked treat
+popcorn,bakery,base,3,3,0,0,попкорн,popcorn,воздушная кукуруза|кукуруза,kettle corn|corn,маслянистая жареная кукуруза с карамельной сладостью,buttery toasted corn with caramel sweetness
+cereal,bakery,base,2,3,0,1,хлопья,cereal,сухой завтрак|кукурузные хлопья|мюсли|гранола|овсяные хлопья,cornflakes|corn flakes|granola|muesli|breakfast cereal,хрустящие поджаренные злаки с лёгкой сладостью,crunchy toasted grains with light sweetness
+pancake,bakery,base,3,4,0,0,блины,pancakes,блинчики|панкейки|оладьи|блин,pancake|crepes|crepe,тёплое мягкое сливочно-ванильное тесто со сковороды,warm soft buttery batter fresh from the pan
+waffle,bakery,support,3,4,0,0,вафли,waffles,вафля|вафельный|венские вафли|вафельный рожок,waffle|belgian waffle|waffle cone,хрустящее сладкое тесто с ванильной ноткой,crispy sweet batter with a vanilla note
+gum,candy,base,4,5,1,2,жвачка,bubble gum,жевательная резинка|бабл гам,chewing gum,сладкий фруктово-ванильный вкус жевательной резинки,sweet fruity vanilla chewing gum taste
+barberry,candy,accent,4,4,3,1,барбарис,barberry,барбариска,,кисло-сладкий вкус классических леденцов,tart-sweet taste of classic hard candy
+fruit_candy,candy,base,4,5,2,1,фруктовые конфеты,fruit candy,мармелад|леденцы|жевательные конфеты,gummies|jelly candy|hard candy,яркая сахарная фруктовая сладость,bright sugary fruit sweetness
+cotton_candy,candy,support,3,5,0,0,сладкая вата,cotton candy,,candy floss,воздушный сахар с ванильной ноткой,airy spun sugar with a vanilla note
+cinnamon,spice,accent,5,1,0,0,корица,cinnamon,,,тёплая сладкая древесная пряность,warm sweet woody spice
+cardamom,spice,accent,5,0,0,2,кардамон,cardamom,,,свежая пряность с эвкалиптово-цитрусовой ноткой,fresh spice with a eucalyptus-citrus note
+ginger,spice,accent,5,0,1,2,имбирь,ginger,,,жгучий острый свежий корень,hot sharp fresh root
+clove,spice,accent,5,0,0,0,гвоздика,clove,,,тёплая резкая пряность как в глинтвейне,warm pungent spice as in mulled wine
+anise,spice,accent,5,2,0,1,анис,anise,бадьян|лакрица|солодка,star anise|licorice,сладкая пряность с лакричным вкусом,sweet spice with licorice taste
+chili,spice,accent,5,0,0,0,перец чили,chili,чили|острый перец|перец,chili pepper|hot pepper,жгучая резкая острота стручкового перца,burning sharp heat of hot peppers
+mint,herbal,accent,4,1,0,5,мята,mint,перечная мята|мелисса,peppermint|spearmint,свежая прохладная травяная зелень,fresh cool green herb
+eucalyptus,herbal,accent,5,0,0,5,эвкалипт,eucalyptus,холлс,halls,резкая бальзамическая лекарственная свежесть,sharp balsamic medicinal freshness
+basil,herbal,accent,4,1,0,3,базилик,basil,,,пряная сладковатая садовая зелень,spicy sweetish garden herb
+tarragon,herbal,accent,4,2,0,3,тархун,tarragon,эстрагон,estragon,сладковатая анисовая трава как в зелёном лимонаде,sweetish anise herb as in green soda
+rosemary,herbal,accent,5,0,0,2,розмарин,rosemary,,,смолистая хвойная пряная трава,resinous piney savory herb
+lemongrass,herbal,accent,3,0,2,4,лемонграсс,lemongrass,лимонник,,травянистая лимонная свежесть,grassy lemony freshness
+pine,herbal,accent,5,0,0,4,хвоя,pine,ель|сосна|можжевельник,spruce|fir|juniper,смолистый свежий лесной аромат,resinous fresh forest aroma
+rose,floral,accent,4,2,0,1,роза,rose,,,сладкий бархатистый цветочный аромат,sweet velvety floral aroma
+jasmine,floral,accent,4,2,0,1,жасмин,jasmine,,,нежный пьянящий белый цветок,delicate heady white flower
+lavender,floral,accent,5,1,0,2,лаванда,lavender,,,травянисто-цветочный успокаивающий аромат,herbal floral calming aroma
+elderflower,floral,accent,3,3,1,3,бузина,elderflower,цветы бузины,elder,лёгкий медово-цветочный аромат,light honeyed floral aroma
+chamomile,floral,accent,3,2,0,2,ромашка,chamomile,ромашковый чай,camomile|chamomile tea,мягкий медово-травяной цветок с яблочной ноткой,soft honeyed herbal flower with an apple note
+violet,floral,accent,4,2,0,1,фиалка,violet,,,пудровый сладкий цветочный аромат,powdery sweet floral aroma
+black_tea,tea,base,3,0,1,1,чёрный чай,black tea,чай|эрл грей,tea|earl grey,терпкий насыщенный заваренный чай,astringent rich brewed tea
+green_tea,tea,base,2,0,1,3,зелёный чай,green tea,матча|улун,matcha|oolong,лёгкий травянистый свежий чай,light grassy fresh tea
+hibiscus,tea,accent,3,1,4,2,каркаде,hibiscus,гибискус,,кислый цветочный рубиновый чай,sour floral ruby tea
+mate,tea,support,3,0,0,2,мате,mate,,yerba mate,травянистый землистый бодрящий настой,grassy earthy invigorating infusion
+cola,drink,base,4,4,1,1,кола,cola,кока-кола|пепси,coke,сладкая газировка с пряно-карамельной ноткой,sweet soda with a spicy caramel note
+lemonade,drink,base,3,4,3,4,лимонад,lemonade,газировка|содовая,soda,сладкий шипучий освежающий напиток,sweet fizzy refreshing drink
+energy_drink,drink,base,4,4,3,2,энергетик,energy drink,,,сладко-кислый химично-фруктовый газированный напиток,sweet-sour artificial fruity fizzy drink
+coffee,drink,accent,5,1,0,0,кофе,coffee,капучино|латте|эспрессо,cappuccino|latte|espresso,горьковатый обжаренный бодрящий вкус,bitter roasted invigorating taste
+cream_soda,drink,base,3,5,0,2,крем-сода,cream soda,,,сладкая ванильная газировка,sweet vanilla soda
+rum,alcohol,accent,4,2,0,0,ром,rum,,,тёплый сладкий тростниковый алкогольный вкус,warm sweet sugarcane spirit taste
+wine,alcohol,accent,3,1,2,1,вино,wine,шампанское|игристое,champagne|prosecco|sparkling wine,терпкий виноградный алкогольный вкус,astringent grape spirit taste
+whiskey,alcohol,accent,4,1,0,0,виски,whiskey,бурбон|коньяк,bourbon|cognac|brandy,дубовый карамельный крепкий алкогольный вкус,oaky caramel strong spirit taste
+almond,nut,support,3,2,0,0,миндаль,almond,марципан,marzipan,сладковатый ореховый вкус с горьковатой ноткой,sweetish nutty taste with a bitter note
+hazelnut,nut,support,3,2,0,0,фундук,hazelnut,лесной орех|нутелла,nutella,маслянистый обжаренный ореховый вкус,buttery roasted nutty taste
+pistachio,nut,support,3,2,0,0,фисташка,pistachio,,,мягкий сладковато-солёный ореховый вкус,mild sweet-salty nutty taste
+peanut,nut,support,4,2,0,0,арахис,peanut,арахисовая паста,peanut butter,жареный масляный ореховый вкус,roasted buttery nutty taste
+cucumber,vegetable,accent,2,0,0,5,огурец,cucumber,,,свежий водянистый зелёный вкус,fresh watery green taste
+rhubarb,vegetable,accent,3,1,4,2,ревень,rhubarb,,,кислый сочный травянистый вкус,sour juicy herbaceous taste
+aloe,vegetable,support,2,2,0,3,алоэ,aloe,алоэ вера,aloe vera,лёгкий сладковатый желейный зелёный вкус,light sweetish jelly-like green taste
+tobacco_leaf,tobacco,support,3,0,0,0,табачный вкус,tobacco,табак|табачность,tobacco leaf,терпкий пряный вкус самого табачного листа,astringent spicy taste of the tobacco leaf itself
+cooling,cooling,cooling,4,0,0,5,холодок,cooling,лёд|ледяной|холод|айс|ментол,ice|icy|frost|menthol,сильный освежающий холод без вкуса мяты,strong refreshing chill without mint flavor
+sweet,property,,,,,,сладость,sweet,сладкий|сладенький,sweetness,выраженная сахарная сладость,pronounced sugary sweetness
+sour,property,,,,,,кислинка,sour,кислый|кисло,sourness|tart,выраженная яркая кислота во вкусе,pronounced bright acidity in taste
+bitter,property,,,,,,горчинка,bitter,горький,bitterness,лёгкая приятная горечь,light pleasant bitterness
+fresh,property,,,,,,свежесть,fresh,освежающий|свежий|бодрящий,refreshing|freshness,лёгкий бодрящий освежающий характер,light invigorating refreshing character
+creamy,property,,,,,,сливочность,creamy,сливочный|нежный,smooth,мягкий обволакивающий сливочный характер,soft enveloping creamy character
+spicy,property,,,,,,пряность,spicy,пряный|специи,spices,тёплый пряный характер,warm spicy character
